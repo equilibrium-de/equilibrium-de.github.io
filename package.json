@@ -1,0 +1,17 @@
+{
+	"name": "equilibrium-de.github.io",
+	"version": "1.0.0",
+	"main": "index.ts",
+	"repository": "git@github.com:equilibrium-de/equilibrium-de.github.io.git",
+	"author": "Dmitry Egorov <dmitry.egorov@eqlab.online>",
+	"license": "UNLICENSED",
+	"scripts": {
+		"clean": "rm -rf ./dist",
+		"generate": "node dist/index.js",
+		"build": "yarn clean && tsc && yarn generate"
+	},
+	"devDependencies": {
+		"@types/node": "20"
+	},
+	"packageManager": "yarn@4.5.3"
+}
