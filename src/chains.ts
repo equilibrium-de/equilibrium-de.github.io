@@ -47,8 +47,29 @@ const CHAINS: Chain[] = [
 	{
 		cid: 6,
 		ecosystemName: "solana",
-		name: "solana testnet",
-		displayName: "Solana Testnet",
+		name: "solana devnet",
+		displayName: "Solana Devnet",
+	},
+	{
+		cid: 7,
+		ecosystemName: "evm",
+		name: "base",
+		displayName: "Base",
+		id: 8453,
+	},
+	{
+		cid: 8,
+		ecosystemName: "evm",
+		name: "polygon",
+		displayName: "Polygon",
+		id: 137,
+	},
+	{
+		cid: 9,
+		ecosystemName: "evm",
+		name: "sepolia",
+		displayName: "Sepolia",
+		id: 11155111,
 	},
 ];
 
