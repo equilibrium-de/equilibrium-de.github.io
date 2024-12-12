@@ -24,6 +24,32 @@ const CHAINS: Chain[] = [
 		displayName: "Holesky",
 		id: 17000,
 	},
+	{
+		cid: 3,
+		ecosystemName: "evm",
+		name: "arbitrum",
+		displayName: "Arbitrum",
+		id: 42161,
+	},
+	{
+		cid: 4,
+		ecosystemName: "evm",
+		name: "bnb mainnet",
+		displayName: "BNB Smart Chain",
+		id: 56,
+	},
+	{
+		cid: 5,
+		ecosystemName: "solana",
+		name: "solana mainnet",
+		displayName: "Solana",
+	},
+	{
+		cid: 6,
+		ecosystemName: "solana",
+		name: "solana testnet",
+		displayName: "Solana Testnet",
+	},
 ];
 
 export const CHAIN_IDS = CHAINS.map((x) => x.cid);
