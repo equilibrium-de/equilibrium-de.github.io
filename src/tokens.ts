@@ -10,7 +10,7 @@ export type Token = {
 	displayName?: string;
 };
 
-const TOKENS: Token[] = [
+export const TOKENS: Token[] = [
 	{
 		id: 1,
 		address: "x",

@@ -1,7 +1,7 @@
 import { Ecosystem, ECOSYSTEMS } from "./ecosystems";
 import { hasUnique } from "./utils";
 
-type Chain = {
+export type Chain = {
 	cid: number; // pk
 	name: string;
 	ecosystemName: Ecosystem["name"]; // fk to ecosystems
@@ -9,7 +9,7 @@ type Chain = {
 	id?: number | string; // internal chain id like 17000 for holesky
 };
 
-const CHAINS: Chain[] = [
+export const CHAINS: Chain[] = [
 	{
 		cid: 1,
 		ecosystemName: "evm",
