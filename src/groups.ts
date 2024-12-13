@@ -13,11 +13,11 @@ const GROUPS: Group[] = [
 	},
 	{
 		name: "ETH",
-		tokenIdList: [21, 22, 23, 24, 25],
+		tokenIdList: [3, 21, 22, 23, 24, 25],
 	},
 	{
 		name: "ETH L2",
-		tokenIdList: [22, 23, 21, 25.24],
+		tokenIdList: [22, 23, 21, 25, 24],
 	},
 	{
 		name: "L1 Networks",
