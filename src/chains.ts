@@ -20,9 +20,9 @@ export const CHAINS: Chain[] = [
 	{
 		cid: 2,
 		ecosystemName: "evm",
-		name: "holesky",
-		displayName: "Holesky",
-		id: 17000,
+		name: "sepolia",
+		displayName: "Sepolia",
+		id: 11155111,
 	},
 	{
 		cid: 3,
@@ -63,13 +63,6 @@ export const CHAINS: Chain[] = [
 		name: "polygon",
 		displayName: "Polygon",
 		id: 137,
-	},
-	{
-		cid: 9,
-		ecosystemName: "evm",
-		name: "sepolia",
-		displayName: "Sepolia",
-		id: 11155111,
 	},
 ];
 

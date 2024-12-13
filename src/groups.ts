@@ -2,46 +2,46 @@ import { hasUnique } from "./utils";
 
 type Group = {
 	name: string;
-	vaultIds: number[];
+	tokenIdList: number[];
 	rank?: number;
 };
 
 const GROUPS: Group[] = [
 	{
 		name: "BTC",
-		vaultIds: [1],
+		tokenIdList: [11, 12, 13, 14, 15],
 	},
 	{
 		name: "ETH",
-		vaultIds: [1],
+		tokenIdList: [21, 22, 23, 24, 25],
 	},
 	{
 		name: "ETH L2",
-		vaultIds: [1],
+		tokenIdList: [22, 23, 21, 25.24],
 	},
 	{
 		name: "L1 Networks",
-		vaultIds: [1],
+		tokenIdList: [11, 12, 13, 14, 15],
 	},
 	{
 		name: "LP tokens",
-		vaultIds: [1, 2],
+		tokenIdList: [11, 12, 13, 14, 15],
 	},
 	{
 		name: "Governance tokens",
-		vaultIds: [2],
+		tokenIdList: [11, 12, 13, 14, 15],
 	},
 	{
 		name: "Memes",
-		vaultIds: [1],
+		tokenIdList: [11, 12, 13, 14, 15],
 	},
 	{
 		name: "Stablecoins",
-		vaultIds: [1],
+		tokenIdList: [11, 12, 13, 14, 15],
 	},
 	{
 		name: "Others",
-		vaultIds: [1],
+		tokenIdList: [11, 12, 13, 14, 15],
 	},
 ];
 
