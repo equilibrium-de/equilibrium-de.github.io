@@ -1,5 +1,5 @@
 import { Chain, CHAINS } from "./chains";
-import { Token, TOKEN_IDS, TOKENS } from "./tokens";
+import { Token, TOKENS } from "./tokens";
 import { hasUnique } from "./utils";
 
 type Vault = {
