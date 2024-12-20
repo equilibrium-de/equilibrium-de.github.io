@@ -5,7 +5,7 @@ export type Chain = {
 	cid: number; // pk
 	name: string;
 	ecosystemName: Ecosystem["name"]; // fk to ecosystems
-	displayName?: string;
+	displayName: string;
 	id?: number | string; // internal chain id like 17000 for holesky
 };
 

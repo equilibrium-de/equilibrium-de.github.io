@@ -31,8 +31,14 @@ export const VAULTS: Vault[] = [
 	{
 		id: 3,
 		tokenIdList: [11, 12, 13, 14, 15, 21, 22, 23, 24, 25],
-		address: "H7C5br4xbRa8C3CrKAYb3iiwoQzmwWwWDeyg7JV31ZNa",
-		withdrawalApproverAddress: "B6vVuf2Q1TGp1PnoyiyHiLGYZBXRBuj9M82TnPTcvTbg",
+		address: "x",
+		withdrawalApproverAddress: "x",
+	},
+	{
+		id: 4,
+		tokenIdList: [15, 21],
+		address: "y",
+		withdrawalApproverAddress: "y",
 	},
 ];
 
