@@ -15,7 +15,7 @@ type VaultExtended = Vault & {
 	chain: Chain;
 };
 
-const VAULTS: Vault[] = [
+export const VAULTS: Vault[] = [
 	{
 		id: 1,
 		tokenIdList: [3],
@@ -25,6 +25,12 @@ const VAULTS: Vault[] = [
 	{
 		id: 2,
 		tokenIdList: [4],
+		address: "H7C5br4xbRa8C3CrKAYb3iiwoQzmwWwWDeyg7JV31ZNa",
+		withdrawalApproverAddress: "B6vVuf2Q1TGp1PnoyiyHiLGYZBXRBuj9M82TnPTcvTbg",
+	},
+	{
+		id: 3,
+		tokenIdList: [11, 12, 13, 14, 15, 21, 22, 23, 24, 25],
 		address: "H7C5br4xbRa8C3CrKAYb3iiwoQzmwWwWDeyg7JV31ZNa",
 		withdrawalApproverAddress: "B6vVuf2Q1TGp1PnoyiyHiLGYZBXRBuj9M82TnPTcvTbg",
 	},

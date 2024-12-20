@@ -1,4 +1,5 @@
 import { hasUnique } from "./utils";
+import { VAULTS } from "./vaults";
 
 type Group = {
 	name: string;
@@ -45,8 +46,23 @@ const GROUPS: Group[] = [
 	},
 ];
 
+const GROUPS_EXTENDED = GROUPS.map((group) => {
+	const tokensWithVaults = group.tokenIdList.map((id) => {
+		const vaults = VAULTS.filter((v) => v.tokenIdList.includes(id)).map(
+			(v) => v.id
+		);
+		if (vaults.length === 0) {
+			throw new Error(
+				`Vaults not found for group ${group.name} and token ${id}`
+			);
+		}
+		return { tokenId: id, vaults };
+	});
+	return { ...group, tokensWithVaults };
+});
+
 const generate = () => {
-	return JSON.stringify(GROUPS);
+	return JSON.stringify(GROUPS_EXTENDED);
 };
 
 export default { generate };
