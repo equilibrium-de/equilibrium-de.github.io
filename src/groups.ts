@@ -48,15 +48,15 @@ const GROUPS: Group[] = [
 
 const GROUPS_EXTENDED = GROUPS.map((group) => {
 	const tokensWithVaults = group.tokenIdList.map((id) => {
-		const vaults = VAULTS.filter((v) => v.tokenIdList.includes(id)).map(
+		const vaultIds = VAULTS.filter((v) => v.tokenIdList.includes(id)).map(
 			(v) => v.id
 		);
-		if (vaults.length === 0) {
+		if (vaultIds.length === 0) {
 			throw new Error(
 				`Vaults not found for group ${group.name} and token ${id}`
 			);
 		}
-		return { tokenId: id, vaults };
+		return { tokenId: id, vaultIds };
 	});
 	return { ...group, tokensWithVaults };
 });
