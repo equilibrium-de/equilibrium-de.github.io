@@ -3,7 +3,7 @@ import { hasUnique } from "./utils";
 
 export type Token = {
 	id: number; // pk
-	address: string;
+	address?: string; // no address for future tokens
 	name: string;
 	decimals: number;
 	cid: number; // fk to chain id

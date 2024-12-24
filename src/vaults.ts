@@ -4,8 +4,8 @@ import { hasUnique } from "./utils";
 
 type Vault = {
 	id: number; // pk
-	address: string;
-	withdrawalApproverAddress: string;
+	address?: string; // no address for future vaults
+	withdrawalApproverAddress?: string;
 	tokenIdList: number[]; // fk to token
 	displayName?: string;
 };
@@ -31,14 +31,10 @@ export const VAULTS: Vault[] = [
 	{
 		id: 3,
 		tokenIdList: [11, 12, 13, 14, 15, 21, 22, 23, 24, 25],
-		address: "x",
-		withdrawalApproverAddress: "x",
 	},
 	{
 		id: 4,
 		tokenIdList: [15, 21],
-		address: "y",
-		withdrawalApproverAddress: "y",
 	},
 ];
 
