@@ -13,14 +13,12 @@ export type Token = {
 export const TOKENS: Token[] = [
 	{
 		id: 1,
-		address: "x",
 		cid: 1,
 		name: "ETH",
 		decimals: 18,
 	},
 	{
 		id: 2,
-		address: "y",
 		cid: 1,
 		name: "USDc",
 		decimals: 6,
@@ -42,7 +40,6 @@ export const TOKENS: Token[] = [
 	{
 		// test btc group 11-15
 		id: 11,
-		address: "x",
 		cid: 2,
 		name: "IBTC",
 		displayName: "InterBTC",
@@ -50,7 +47,6 @@ export const TOKENS: Token[] = [
 	},
 	{
 		id: 12,
-		address: "x",
 		cid: 2,
 		name: "eBTC",
 		displayName: "ether.fi Staked BTC",
@@ -58,7 +54,6 @@ export const TOKENS: Token[] = [
 	},
 	{
 		id: 13,
-		address: "x",
 		cid: 2,
 		name: "WBTC",
 		displayName: "Wrapped BTC",
@@ -66,14 +61,12 @@ export const TOKENS: Token[] = [
 	},
 	{
 		id: 14,
-		address: "x",
 		cid: 2,
 		name: "dlcBTC",
 		decimals: 18,
 	},
 	{
 		id: 15,
-		address: "x",
 		cid: 2,
 		name: "TBTC",
 		displayName: "tBTC",
@@ -82,7 +75,6 @@ export const TOKENS: Token[] = [
 	{
 		// test eth group 21-25
 		id: 21,
-		address: "x",
 		cid: 2,
 		name: "ETH",
 		displayName: "Ether",
@@ -90,7 +82,6 @@ export const TOKENS: Token[] = [
 	},
 	{
 		id: 22,
-		address: "x",
 		cid: 2,
 		name: "amphrETH",
 		displayName: "Amphor ETH",
@@ -98,7 +89,6 @@ export const TOKENS: Token[] = [
 	},
 	{
 		id: 23,
-		address: "x",
 		cid: 2,
 		name: "uniETH",
 		displayName: "Universal ETH",
@@ -106,7 +96,6 @@ export const TOKENS: Token[] = [
 	},
 	{
 		id: 24,
-		address: "x",
 		cid: 2,
 		name: "agETH",
 		displayName: "Kelp Gain",
@@ -114,7 +103,6 @@ export const TOKENS: Token[] = [
 	},
 	{
 		id: 25,
-		address: "x",
 		cid: 2,
 		name: "amphr2ETH",
 		decimals: 18,
