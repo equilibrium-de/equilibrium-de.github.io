@@ -17,12 +17,12 @@ const GROUPS: Group[] = [
 	{
 		id: 2,
 		name: "ETH",
-		tokenIdList: [3, 21, 22, 23, 24, 25, 12, 13, 14, 15],
+		tokenIdList: [3, 1, 21, 22, 23, 24, 25, 12, 13, 14, 15],
 	},
 	{
 		id: 3,
 		name: "ETH L2",
-		tokenIdList: [22, 23, 21, 25, 24, 15, 14, 13, 12, 11],
+		tokenIdList: [22, 2, 23, 21, 25, 24, 15, 14, 13, 12, 11],
 	},
 	{
 		id: 4,

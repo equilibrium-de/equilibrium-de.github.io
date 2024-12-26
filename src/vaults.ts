@@ -36,6 +36,14 @@ export const VAULTS: Vault[] = [
 		id: 4,
 		tokenIdList: [15, 21],
 	},
+	{
+		id: 5,
+		tokenIdList: [1],
+	},
+	{
+		id: 6,
+		tokenIdList: [2],
+	},
 ];
 
 const VAULTS_EXTENDED: VaultExtended[] = VAULTS.map((x) => {
