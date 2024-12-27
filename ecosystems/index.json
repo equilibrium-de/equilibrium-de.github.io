@@ -1,1 +1,1 @@
-[{"name":"evm"},{"name":"solana"},{"name":"sui"},{"name":"aptos"}]
+[{"name":"evm","displayName":"Ethereum + 94","subtitle":"Arbitrum, BNB, Base, etc."},{"name":"solana","displayName":"Solana"},{"name":"sui","displayName":"Sui"},{"name":"aptos","displayName":"Aptos"}]
