@@ -39,7 +39,7 @@ const generate = () => {
 		Object.entries(TRANSLATIONS)
 			.map(([k, v]) => {
 				return {
-					key: k.toLowerCase().replace(/ /g, ""),
+					key: k.toLowerCase().replace(/\s|\'|\"/g, ""),
 					en: k,
 					zh: v,
 				};
