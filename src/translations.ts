@@ -34,6 +34,8 @@ const TRANSLATIONS = {
 		"Enjoyoors整合了各类资产的价值，并将这些价值传输到需求最大的市场，为所有市场参与者解锁收益和流动性。",
 	"/img/magic.webp": "/img/magic-zh.webp",
 	"/img/magic-desktop.webp": "/img/magic-desktop-zh.webp",
+	"/img/xl-group.svg": "/img/xl-group-zh.svg",
+	"/img/2xl-group.svg": "/img/2xl-group-zh.svg",
 };
 
 const generate = () => {
