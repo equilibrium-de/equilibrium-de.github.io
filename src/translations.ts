@@ -13,6 +13,8 @@ const TRANSLATIONS = {
 	"Withdraw funds anytime": "资金可随时取出",
 	"We Accept": "平台接受的资产种类",
 	"Top 300 cryptocurrencies": "排名前300的加密货币",
+	"Top 300": "排名前300",
+	cryptocurrencies: "的加密货币",
 	"Governance tokens": "治理代币",
 	"Liquid staking tokens (LST)": "流动性质押代币 (LST)",
 	"Liquid restaking tokens (LRT)": "流动性再质押代币 (LRT)",
