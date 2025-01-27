@@ -39,6 +39,8 @@ const TRANSLATIONS = {
 	"/img/magic-desktop.webp": "/img/magic-desktop-zh.webp",
 	"/img/xl-group.svg": "/img/xl-group-zh.svg",
 	"/img/2xl-group.svg": "/img/2xl-group-zh.svg",
+	"/img/md-group.svg": "/img/md-group-zh.svg",
+	"/img/sm-group.svg": "/img/sm-group-zh.svg",
 };
 
 const generate = () => {
