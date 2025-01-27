@@ -41,6 +41,7 @@ const TRANSLATIONS = {
 	"/img/2xl-group.svg": "/img/2xl-group-zh.svg",
 	"/img/md-group.svg": "/img/md-group-zh.svg",
 	"/img/sm-group.svg": "/img/sm-group-zh.svg",
+	"/img/lg-group.svg": "/img/lg-group-zh.svg",
 };
 
 const generate = () => {
