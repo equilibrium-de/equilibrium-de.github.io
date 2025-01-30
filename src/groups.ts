@@ -52,7 +52,7 @@ const GROUPS: Group[] = [
 	{
 		id: 9,
 		name: "Others",
-		tokenIdList: [11, 12, 13, 14, 15],
+		tokenIdList: [4, 5, 11, 12, 13, 14, 15],
 	},
 ];
 

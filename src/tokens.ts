@@ -32,10 +32,17 @@ export const TOKENS: Token[] = [
 	},
 	{
 		id: 4,
+		address: "H5iQBTZ9J8R3Y5nMs8PtVf9wEaHCv4Cxfu2za87djU2g",
+		cid: 6,
+		name: "SToken1",
+		decimals: 9,
+	},
+	{
+		id: 5,
 		address: "mZf5RyCosgCz93YBWzLf7876ThhviA5J5c9LdQgX5Kc",
 		cid: 6,
-		name: "Token2",
-		decimals: 18,
+		name: "SToken2",
+		decimals: 9,
 	},
 	{
 		// test btc group 11-15
