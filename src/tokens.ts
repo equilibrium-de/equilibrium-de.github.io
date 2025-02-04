@@ -114,6 +114,13 @@ export const TOKENS: Token[] = [
 		name: "amphr2ETH",
 		decimals: 18,
 	},
+	{
+		id: 26,
+		cid: 10,
+		address: "0x72e1601a8ce68fe945821fe98bea2629c04a0cf98f0f823f10660f5534a94685::test_coin::TEST_COIN",
+		name: "TEST_COIN",
+		decimals: 6
+	}
 ];
 
 export const TOKEN_IDS = TOKENS.map((x) => x.id);
