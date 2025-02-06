@@ -34,14 +34,14 @@ export const TOKENS: Token[] = [
 		id: 4,
 		address: "H5iQBTZ9J8R3Y5nMs8PtVf9wEaHCv4Cxfu2za87djU2g",
 		cid: 6,
-		name: "SToken1",
+		name: "BNB",
 		decimals: 9,
 	},
 	{
 		id: 5,
 		address: "mZf5RyCosgCz93YBWzLf7876ThhviA5J5c9LdQgX5Kc",
 		cid: 6,
-		name: "SToken2",
+		name: "USDT",
 		decimals: 9,
 	},
 	{
@@ -117,10 +117,11 @@ export const TOKENS: Token[] = [
 	{
 		id: 26,
 		cid: 10,
-		address: "0x72e1601a8ce68fe945821fe98bea2629c04a0cf98f0f823f10660f5534a94685::test_coin::TEST_COIN",
+		address:
+			"0x72e1601a8ce68fe945821fe98bea2629c04a0cf98f0f823f10660f5534a94685::test_coin::TEST_COIN",
 		name: "TEST_COIN",
-		decimals: 6
-	}
+		decimals: 6,
+	},
 ];
 
 export const TOKEN_IDS = TOKENS.map((x) => x.id);
