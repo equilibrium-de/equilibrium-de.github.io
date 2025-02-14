@@ -52,6 +52,11 @@ export const VAULTS: Vault[] = [
 		withdrawalApproverAddress:
 			"0xfc1ce34c7bd5207295026d85e99386f596da0de431376fb995543690a1b3a9bc",
 	},
+	{
+		id: 8,
+		tokenIdList: [27],
+		address: "0:a27885fa4db58f185341595ddd9f6a186c7ffe31b57e6bfcd5f96a8edd7c157d",
+	},
 ];
 
 const VAULTS_EXTENDED: VaultExtended[] = VAULTS.map((x) => {

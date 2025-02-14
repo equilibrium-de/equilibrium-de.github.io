@@ -120,7 +120,14 @@ export const TOKENS: Token[] = [
 		address:
 			"0x72e1601a8ce68fe945821fe98bea2629c04a0cf98f0f823f10660f5534a94685::test_coin::TEST_COIN",
 		name: "TEST_COIN",
-		decimals: 6,
+		decimals: 9,
+	},
+	{
+		id: 27,
+		cid: 12,
+		address: "0:a46b38d32c11914b8a7ff05b5c00942a88723de33f07fb7119a2438a82478311",
+		name: "MEMTOK1",
+		decimals: 9,
 	},
 ];
 
