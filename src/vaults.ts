@@ -25,8 +25,8 @@ export const VAULTS: Vault[] = [
 	{
 		id: 2,
 		tokenIdList: [4, 5],
-		address: "FPJXTFVW7nDovLWRdtCmjtuFyBymqfgrcfLkcPrMnZPY",
-		withdrawalApproverAddress: "2qqQDEUwNsofpTt9mqr6UGzBJbCHx1QzThY6dbwtM88L",
+		address: "36L5ttVEDjXNkN3qPxpZw74JgNNyyEZEZYnuN8FFTtzN",
+		withdrawalApproverAddress: "FAJrRau3eykNGU4yTj4FtqgpAQQ6hn1GDBeC8mYFTL9S",
 	},
 	{
 		id: 3,
@@ -47,8 +47,10 @@ export const VAULTS: Vault[] = [
 	{
 		id: 7,
 		tokenIdList: [26],
-		address: "0xee0760309f6ac501828ba562b3a56d86e55c896fb272f474f3d98ae1c01c8f37",
-		withdrawalApproverAddress: "0xfc1ce34c7bd5207295026d85e99386f596da0de431376fb995543690a1b3a9bc",
+		address:
+			"0xee0760309f6ac501828ba562b3a56d86e55c896fb272f474f3d98ae1c01c8f37",
+		withdrawalApproverAddress:
+			"0xfc1ce34c7bd5207295026d85e99386f596da0de431376fb995543690a1b3a9bc",
 	},
 	{
 		id: 8,
