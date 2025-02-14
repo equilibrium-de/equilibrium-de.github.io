@@ -78,6 +78,20 @@ export const CHAINS: Chain[] = [
 		displayName: "Sui Testnet",
 		id: "testnet",
 	},
+	{
+		cid: 11,
+		ecosystemName: "ton",
+		name: "ton mainnet",
+		displayName: "Ton",
+		id: "mainnet",
+	},
+	{
+		cid: 12,
+		ecosystemName: "ton",
+		name: "ton testnet",
+		displayName: "Ton Testnet",
+		id: "testnet",
+	},
 ];
 
 export const CHAIN_IDS = CHAINS.map((x) => x.cid);

@@ -1,5 +1,5 @@
 export type Ecosystem = {
-	name: "evm" | "solana" | "aptos" | "sui"; // pk
+	name: "evm" | "solana" | "aptos" | "sui" | "ton"; // pk
 	displayName?: string;
 	subtitle?: string;
 };
@@ -21,6 +21,10 @@ export const ECOSYSTEMS: Ecosystem[] = [
 	{
 		name: "aptos",
 		displayName: "Aptos",
+	},
+	{
+		name: "ton",
+		displayName: "Ton",
 	},
 ];
 
