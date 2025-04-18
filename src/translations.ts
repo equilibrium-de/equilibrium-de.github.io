@@ -48,6 +48,7 @@ const TRANSLATIONS = {
 	"pokeMON and claim rewards on our TGE": "pokeMON，TGE 时领取奖励！",
 	"Learn More": "了解更多信息",
 	CONNECT: "连接钱包",
+	"THE OMNIASSET LIQUIDITY PRIMITIVE": "全资产流动性原语",
 };
 
 const generate = () => {
