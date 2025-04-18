@@ -43,6 +43,11 @@ const TRANSLATIONS = {
 	"/img/sm-group.svg": "/img/sm-group-zh.svg",
 	"/img/lg-group.svg": "/img/lg-group-zh.svg",
 	REWARDS: "领取奖励",
+	"Now Live On Monad Testnet, Soon — Everywhere! Earn":
+		"现已上线 Monad 测试网，即将席卷全网！赚取",
+	"pokeMON and claim rewards on our TGE": "pokeMON，TGE 时领取奖励！",
+	"Learn More": "了解更多信息",
+	CONNECT: "连接钱包",
 };
 
 const generate = () => {
