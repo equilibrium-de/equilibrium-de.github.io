@@ -42,6 +42,7 @@ const TRANSLATIONS = {
 	"/img/md-group.svg": "/img/md-group-zh.svg",
 	"/img/sm-group.svg": "/img/sm-group-zh.svg",
 	"/img/lg-group.svg": "/img/lg-group-zh.svg",
+	REWARDS: "领取奖励",
 };
 
 const generate = () => {
