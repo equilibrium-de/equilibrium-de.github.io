@@ -42,6 +42,7 @@ const TRANSLATIONS = {
 	"/img/md-group.svg": "/img/md-group-zh.svg",
 	"/img/sm-group.svg": "/img/sm-group-zh.svg",
 	"/img/lg-group.svg": "/img/lg-group-zh.svg",
+	"/img/footer2.svg": "/img/footer2-zh.svg",
 	REWARDS: "领取奖励",
 	"Now Live On Monad Testnet, Soon — Everywhere! Earn":
 		"现已上线 Monad 测试网，即将席卷全网！赚取",
@@ -138,17 +139,18 @@ const TRANSLATIONS = {
 	"Collect pokeMON points and get ready for exciting rewards on our TGE":
 		"收集pokeMON积分，在TGE时赢大奖",
 	"Earn pokeMON to receive $E": "赚取pokeMON，收到$E",
-	"Top 100 enjoyoors are eligible for rewards":
-		"排名前100的enjoyoors有资格获得奖励",
+	"Top ": "排名前",
+	"100 enjoyoors": "100的enjoyoors",
+	"are eligible for rewards": "有资格获得奖励",
 	"Top 100": "前100",
-	"Expand the list of the winners to 200 by staking more":
-		"质押更多代币，将获奖名单扩展至200人",
+	"Expand the list of the winners to": "质押更多代币，将获奖名单扩展至",
+	"by staking more": "人",
 	"What is $E?": "什么是$E？",
 	"Learn more": "了解更多",
 
 	"Earn pokeMON points by depositing your Monad assets":
 		"存入Monad资产，获得pokeMON积分",
-	"Rating of enjoyoors	enjoyoors": "排行榜",
+	"Rating of enjoyoors": "enjoyoors排行榜",
 	"$78,141.45 staked": "质押金额$78,141.45",
 	"Show all": "显示全部",
 	"The more you stake, the more points you earn": "质押资产越多，获得积分越多",
@@ -178,11 +180,12 @@ const TRANSLATIONS = {
 	"Your pokeMON points": "你的pokeMON积分",
 	"For Staking": "质押奖励",
 	"For Frens": "朋友奖励",
-	// You are #1 enjoyoor	你在enjoyoor排行榜排名第一
-	// You are #3 referrer	你在推荐人排行榜排名第三
+	"You are #{place} enjoyoor":	"你在enjoyoor排行榜排名第{place}",
+	"You are #{place} referrer":	"你在推荐人排行榜排名第{place}",
 	"Invitation link copied": "已复制邀请链接",
 	"Top stakers": "排名最高的质押者",
 	"Top referrers": "排名最高的推荐人",
+	Top: "前",
 };
 
 const generate = () => {
