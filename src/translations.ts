@@ -43,6 +43,9 @@ const TRANSLATIONS = {
 	"/img/sm-group.svg": "/img/sm-group-zh.svg",
 	"/img/lg-group.svg": "/img/lg-group-zh.svg",
 	"/img/footer2.svg": "/img/footer2-zh.svg",
+	"/img/diagram.png": "/img/diagram-zh.png",
+	"/img/how-it-works/print.svg": "/img/how-it-works/print-zh.svg",
+	"/img/find-stake.svg": "/img/find-stake-zh.svg",
 	REWARDS: "领取奖励",
 	"Now Live On Monad Testnet, Soon — Everywhere! Earn":
 		"现已上线 Monad 测试网，即将席卷全网！赚取",
@@ -186,6 +189,13 @@ const TRANSLATIONS = {
 	"Top stakers": "排名最高的质押者",
 	"Top referrers": "排名最高的推荐人",
 	Top: "前",
+	"Connect your wallet and get 10% boost on your rewards": "连接你的钱包，额外获得10%的奖励",
+	"You were invited by {address}": "{address}对你发出邀请",
+	"You can't use your own code": "你无法使用自己的邀请码",
+	"Already joined via referral link": "已经通过推荐链接加入",
+	"You got a 10% bonus on your rewards as an invited fren": "你受到别人邀请，因此可以额外获得10%的奖励",
+	"Enter the correct email address": "请输入正确的电子邮箱地址",
+	"Thanks for becoming an enjoyoor!": "感谢加入Enjoyoors!",
 };
 
 const generate = () => {
