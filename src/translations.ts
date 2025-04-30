@@ -201,6 +201,7 @@ const TRANSLATIONS = {
 
 	"/img/hero.svg": "/img/hero-zh.svg",
 	"/img/hero-sm.svg": "/img/hero-sm-zh.svg",
+	"/img/work-front.svg": "/img/work-front-zh.svg",
 };
 
 const generate = () => {
