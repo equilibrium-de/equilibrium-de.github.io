@@ -203,6 +203,7 @@ const TRANSLATIONS = {
 	"/img/hero-sm.svg": "/img/hero-sm-zh.svg",
 	"/img/work-front.svg": "/img/work-front-zh.svg",
 	"/img/audited.svg": "/img/audited-zh.svg",
+	"/img/vaults-aside.svg": "/img/vaults-aside-zh.svg",
 };
 
 const generate = () => {
