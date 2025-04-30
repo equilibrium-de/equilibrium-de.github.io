@@ -46,6 +46,7 @@ const TRANSLATIONS = {
 	"/img/diagram.png": "/img/diagram-zh.png",
 	"/img/how-it-works/print.svg": "/img/how-it-works/print-zh.svg",
 	"/img/find-stake.svg": "/img/find-stake-zh.svg",
+	"/img/toprates.svg": "/img/toprates-zh.svg",
 	REWARDS: "领取奖励",
 	"Now Live On Monad Testnet, Soon — Everywhere! Earn":
 		"现已上线 Monad 测试网，即将席卷全网！赚取",
