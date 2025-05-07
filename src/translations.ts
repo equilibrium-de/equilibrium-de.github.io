@@ -199,6 +199,10 @@ const TRANSLATIONS = {
 		"你受到别人邀请，因此可以额外获得10%的奖励",
 	"Enter the correct email address": "请输入正确的电子邮箱地址",
 	"Thanks for becoming an enjoyoor!": "感谢加入Enjoyoors!",
+	"We update the amount of points every 3 hours": "我们每三小时会更新一次积分奖励金额",
+	"PER DAY": "每天",
+	"Not enough funds": "金额不足",
+	"Stake at least": "至少质押",
 
 	"/img/hero.svg": "/img/hero-zh.svg",
 	"/img/hero-sm.svg": "/img/hero-sm-zh.svg",
