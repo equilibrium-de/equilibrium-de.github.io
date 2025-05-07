@@ -205,6 +205,49 @@ const TRANSLATIONS = {
 	"/img/work-front.svg": "/img/work-front-zh.svg",
 	"/img/audited.svg": "/img/audited-zh.svg",
 	"/img/vaults-aside.svg": "/img/vaults-aside-zh.svg",
+
+	"How to deposit your assets?": "如何存入资产？",
+	"Select a token": "选择一个代币",
+	"Enter the desired amount of tokens to deposit": "输入想要存入的代币金额",
+	"Click Stake": "点击质押",
+	"Sign the transaction in your wallet": "在钱包里签名交易",
+
+	"How to withdraw your assets?": "如何取出资产？",
+	"Select the staked token in the portfolio widget":
+		"在资产组合页面选择已质押的代币",
+	"Click Withdraw": "点击取出",
+	"Enter the amount of assets to withdraw": "输入取出的资产金额",
+	"Click Request Withdrawal (note the withdrawal time)":
+		"点击请求取出（请注意取出时间）",
+	"Come back at the specified time and click Claim":
+		"在规定的时间点回到页面并点击领取",
+	"How to unlock your points?": "如何解锁积分奖励？",
+	"To unlock your points, you need to complete the quest on Galxe.":
+		"你可以通过完成Galxe上的任务来解锁积分奖励。",
+	"How are points calculated?": "积分奖励是如何计算的？",
+	"We calculate rewards based on the dollar value of your staked assets every hour.":
+		"我们会根据你所质押资产的单位小时美元计价，来计算积分奖励",
+	"The formula is:": "计算公式如下：",
+	"(Number of tokens * Token price in USD) / 24 hours":
+		"（代币数量*代币以美元计价的价格）/24小时",
+	"The longer you hold in the protocol the more points you earn.":
+		"你在协议中持有代币的时间越久，你所获得的积分奖励就越多。",
+
+	"I can’t find myself on the leaderboard": "我在排行榜上找不到自己。",
+	"If you’ve staked your assets, completed the quest on Galxe, and still don’t see yourself on the leaderboard, please wait 3–4 hours. Galxe needs some time to send us the data, and then we’ll update the leaderboard.":
+		"如果你已经质押了资产，并且也完成了Galxe的任务，但还是在排行榜上看不到自己，请等待3-4小时再查看。Galxe需要一些时间把数据发送给我们，我们收到数据后就会更新排行榜。",
+	"I staked my assets but don’t see them on the platform":
+		"我已经质押了资产，但是在平台上看不到我的资产。",
+	"If you’ve staked your assets but don’t see them in the portfolio widget, please wait a bit — we’re still processing your stake.":
+		"如果你已经质押了资产，但是在资产组合页面看不到自己的资产，请稍作等待，因为我们还在处理你的质押请求。",
+	"I made a withdrawal — where are my assets?":
+		"我发起了取出资产的请求，那么我的资产在哪里？",
+	"We use a claim-based withdrawal approach. You need to request a withdrawal, then come back in 1–2 hours while we calculate your points.":
+		"我们的资产取出机制是基于认领请求触发的。你需要先发起取出请求，然后在1-2小时后再回到页面上，我们会在这段时间内计算你的积分奖励。",
+	"I completed the Galxe quest but don’t see my rewards":
+		"我做完了Galxe的任务，但是没看到我的奖励。",
+	" If you’ve completed the quest on Galxe but don’t see your rewards, please wait 3–4 hours. We need to receive the data from Galxe before calculating your points.":
+		"如果你已经完成了Galxe的任务，但是没看到你的奖励，请等待3-4小时再查看。我们需要先从Galxe收到数据，才能计算你的积分奖励。",
 };
 
 const generate = () => {
