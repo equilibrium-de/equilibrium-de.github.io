@@ -222,8 +222,8 @@ const TRANSLATIONS = {
 	"Come back at the specified time and click Claim":
 		"在规定的时间点回到页面并点击领取",
 	"How to unlock your points?": "如何解锁积分奖励？",
-	"To unlock your points, you need to complete the quest on Galxe.":
-		"你可以通过完成Galxe上的任务来解锁积分奖励。",
+	"To unlock your points, you need to complete the quest on Galxe":
+		"你可以通过完成Galxe上的任务来解锁积分奖励",
 	"How are points calculated?": "积分奖励是如何计算的？",
 	"We calculate rewards based on the dollar value of your staked assets every hour.":
 		"我们会根据你所质押资产的单位小时美元计价，来计算积分奖励",
