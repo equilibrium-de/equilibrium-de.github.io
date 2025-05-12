@@ -199,7 +199,8 @@ const TRANSLATIONS = {
 		"你受到别人邀请，因此可以额外获得10%的奖励",
 	"Enter the correct email address": "请输入正确的电子邮箱地址",
 	"Thanks for becoming an enjoyoor!": "感谢加入Enjoyoors!",
-	"We update the amount of points every 3 hours": "我们每三小时会更新一次积分奖励金额",
+	"We update the amount of points every 3 hours":
+		"我们每三小时会更新一次积分奖励金额",
 	"PER DAY": "每天",
 	"Not enough funds": "金额不足",
 	"Stake at least": "至少质押",
@@ -252,6 +253,19 @@ const TRANSLATIONS = {
 		"我做完了Galxe的任务，但是没看到我的奖励。",
 	" If you’ve completed the quest on Galxe but don’t see your rewards, please wait 3–4 hours. We need to receive the data from Galxe before calculating your points.":
 		"如果你已经完成了Galxe的任务，但是没看到你的奖励，请等待3-4小时再查看。我们需要先从Galxe收到数据，才能计算你的积分奖励。",
+	"Token, ticker or address...": "代币、代币符号或地址...",
+	"You were invited by": "对你发出邀请",
+	"COMING TO ALL MAJOR CHAINS": "所有主流区块链",
+	Stablecoins: "稳定币",
+	"LP tokens": "LP代币",
+	"All networks": "所有网络",
+	"Show L1, Governance, and LP Tokens, Memes, Stables and others":
+		"显示L1代币、治理代币、LP代币、meme币以及稳定币等",
+	"Show others": "显示其他",
+	"All articles": "所有文章",
+	"{count} selected": "选择了{count}个网络",
+	"We need some time to calculate your rewards":
+		"我们需要花一点时间来计算你的积分奖励",
 };
 
 const generate = () => {
