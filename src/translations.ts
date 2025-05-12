@@ -266,6 +266,9 @@ const TRANSLATIONS = {
 	"{count} selected": "选择了{count}个网络",
 	"We need some time to calculate your rewards":
 		"我们需要花一点时间来计算你的积分奖励",
+
+	"/img/steps-front-xl.svg": "/img/steps-front-xl-zh.svg",
+	"/img/steps-front.svg": "/img/steps-front-zh.svg",
 };
 
 const generate = () => {
