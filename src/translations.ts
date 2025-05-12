@@ -269,7 +269,6 @@ const TRANSLATIONS = {
 
 	"/img/steps-front-xl.svg": "/img/steps-front-xl-zh.svg",
 	"/img/steps-front.svg": "/img/steps-front-zh.svg",
-	"Questions & Answers": "Questions & Answers",
 };
 
 const generate = () => {
