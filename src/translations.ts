@@ -269,6 +269,13 @@ const TRANSLATIONS = {
 
 	"/img/steps-front-xl.svg": "/img/steps-front-xl-zh.svg",
 	"/img/steps-front.svg": "/img/steps-front-zh.svg",
+
+	"Expand the list of the winners to 300 by earning more pokeMONs":
+		"赚取更多pokeMONs，将获奖人数扩展至300人",
+	"Questions & Answers": "问答",
+	"How can I stake MON?": "我怎么质押MON？",
+	"To stake MON, you first need to wrap your MON into WMON on Bebop. After that, stake the WMON on Enjoyoors.":
+		"To stake MON, you first need to wrap your MON into WMON on Bebop. After that, stake the WMON on Enjoyoors.",
 };
 
 const generate = () => {
