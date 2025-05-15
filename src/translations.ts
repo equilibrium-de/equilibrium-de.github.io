@@ -43,7 +43,7 @@ const TRANSLATIONS = {
 	"/img/sm-group.svg": "/img/sm-group-zh.svg",
 	"/img/lg-group.svg": "/img/lg-group-zh.svg",
 	"/img/footer2.svg": "/img/footer2-zh.svg",
-	"/img/diagram.png": "/img/diagram-zh.png",
+	"/img/diagram.svg": "/img/diagram-zh.svg",
 	"/img/how-it-works/print.svg": "/img/how-it-works/print-zh.svg",
 	"/img/find-stake.svg": "/img/find-stake-zh.svg",
 	"/img/popular-today.svg": "/img/popular-today-zh.svg",
@@ -270,9 +270,7 @@ const TRANSLATIONS = {
 
 	"/img/steps-front-xl.svg": "/img/steps-front-xl-zh.svg",
 	"/img/steps-front.svg": "/img/steps-front-zh.svg",
-
-	"Expand the list of the winners to 300 by earning more pokeMONs":
-		"赚取更多pokeMONs，将获奖人数扩展至300人",
+	"by earning more pokeMONs": "by earning more pokeMONs",
 	"Questions & Answers": "问答",
 	"How can I stake MON?": "我怎么质押MON？",
 	"To stake MON, you first need to wrap your MON into WMON on Bebop. After that, stake the WMON on Enjoyoors.":
