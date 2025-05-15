@@ -270,7 +270,7 @@ const TRANSLATIONS = {
 
 	"/img/steps-front-xl.svg": "/img/steps-front-xl-zh.svg",
 	"/img/steps-front.svg": "/img/steps-front-zh.svg",
-	"by earning more pokeMONs": "by earning more pokeMONs",
+	"by earning more pokeMONs": "赚取更多pokeMONs",
 	"Questions & Answers": "问答",
 	"How can I stake MON?": "我怎么质押MON？",
 	"To stake MON, you first need to wrap your MON into WMON on Bebop. After that, stake the WMON on Enjoyoors.":
