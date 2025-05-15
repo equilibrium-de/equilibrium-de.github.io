@@ -275,7 +275,7 @@ const TRANSLATIONS = {
 	"Questions & Answers": "问答",
 	"How can I stake MON?": "我怎么质押MON？",
 	"To stake MON, you first need to wrap your MON into WMON on Bebop. After that, stake the WMON on Enjoyoors.":
-		"To stake MON, you first need to wrap your MON into WMON on Bebop. After that, stake the WMON on Enjoyoors.",
+		"要质押MON，你首先需要在Bebop上将MON转换成包装代币WMON，然后再在Enjoyoors上质押WMON。",
 };
 
 const generate = () => {
