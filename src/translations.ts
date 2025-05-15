@@ -89,6 +89,7 @@ const TRANSLATIONS = {
 	"Total Staked": "质押总量",
 	"Find, stake, enjoy": "找到机会，参与质押，赢得回报",
 	Others: "其他",
+	Other: "其他",
 	"Choose Network": "选择网络",
 	Disconnect: "断开连接",
 	Networks: "网络",
