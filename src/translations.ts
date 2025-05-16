@@ -148,7 +148,7 @@ const TRANSLATIONS = {
 	"100 enjoyoors": "100的enjoyoors",
 	"are eligible for rewards": "有资格获得奖励",
 	"Top 100": "前100",
-	"Expand the list of the winners to": "质押更多代币，将获奖名单扩展至",
+	"Expand the list of the winners to": "将获奖名单扩展至",
 	"by staking more": "人",
 	"What is $E?": "什么是$E？",
 	"Learn more": "了解更多",
@@ -211,6 +211,7 @@ const TRANSLATIONS = {
 	"/img/work-front.svg": "/img/work-front-zh.svg",
 	"/img/audited.svg": "/img/audited-zh.svg",
 	"/img/vaults-aside.svg": "/img/vaults-aside-zh.svg",
+	"/img/soon-coquelicot.svg": "/img/soon-coquelicot-zh.svg",
 
 	"How to deposit your assets?": "如何存入资产？",
 	"Select a token": "选择一个代币",
