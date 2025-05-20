@@ -277,6 +277,15 @@ const TRANSLATIONS = {
 	"To stake MON, you first need to wrap your MON into WMON on Bebop. After that, stake the WMON on Enjoyoors.":
 		"要质押MON，你首先需要在Bebop上将MON转换成包装代币WMON，然后再在Enjoyoors上质押WMON。",
 	"Claim available at {time} ": "{time}可以领取",
+
+	"You will be able to claim at {time}": "你可以在{time}领取",
+	"Users": "用户",
+	"Total Value Locked": "TVL",
+	"All stats": "所有数据",
+	"Staked Assets": "质押的资产",
+	"Statistics": "数据统计",
+	"LTV": "贷款价值比",
+	"$300 RAFFLE": "300美元奖池抽奖",
 };
 
 const generate = () => {
