@@ -31,8 +31,6 @@ const TRANSLATIONS = {
 	"Provides Liquidity Mainline for DeFi protocols": "为DeFi协议注入流动性",
 	"Wanna become an Enjoyoor?": "想要加入我们吗？",
 	"Your email": "邮箱地址",
-	"I consent to the processing of my data for newsletters and communications":
-		"我同意将我的数据用于订阅和沟通。",
 	"Enjoyoors liberalizes yield and liquidity for all market players by unifying value across a wide range of assets and routing it to where it's needed most.":
 		"Enjoyoors整合了各类资产的价值，并将这些价值传输到需求最大的市场，为所有市场参与者解锁收益和流动性。",
 	"/img/magic.webp": "/img/magic-zh.webp",
@@ -286,6 +284,10 @@ const TRANSLATIONS = {
 	"Statistics": "数据统计",
 	"LTV": "贷款价值比",
 	"$300 RAFFLE": "300美元奖池抽奖",
+	"Follow us": "关注我们",
+	"I consent to the processing of my data for newsletters and communications": "我同意为了接收newsletter和消息将我的信息提供给网站处理",
+	"Get all updates at your email": "通过邮件获得所有最新消息",
+	"Save your place among top 1000 winners by staking more": "质押更多代币，跻身前1000名获奖者",
 };
 
 const generate = () => {
