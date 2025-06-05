@@ -288,6 +288,19 @@ const TRANSLATIONS = {
 	"I consent to the processing of my data for newsletters and communications": "我同意为了接收newsletter和消息将我的信息提供给网站处理",
 	"Get all updates at your email": "通过邮件获得所有最新消息",
 	"Save your place among top 1000 winners by staking more": "质押更多代币，跻身前1000名获奖者",
+	"SHOW" :"显示",
+	"Unlock pokeMON points": "解锁pokeMON积分",
+	"GET BOOST": "获取加速",
+	"pokeMON points x3 boost": "pokeMON积分三倍加速",
+	"wrap": "包装",
+	"unwrap": "解封",
+	"Unlock X3 pokeMON": "解锁三倍pokeMON",
+	"Share your FIABTC stake & triple your": "分享你的FIABTC质押，在6月（xx）之前获得三倍pokeMON积分",
+	"1. Publish Your Stake on X": "1. 在X上发布你的质押资产",
+	"2. Enter Link to Published Post": "2. 在发布的帖子中加入链接",
+	"Unlock": "解锁",
+	"x3 Boosted Rewards until June 13": "到6月13日之前获取三倍加速奖励",
+	"x3 Boosted Rewards until June 16": "到6月16日之前获取三倍加速奖励"
 };
 
 const generate = () => {
