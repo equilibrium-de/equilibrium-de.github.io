@@ -300,7 +300,23 @@ const TRANSLATIONS = {
 	"2. Enter Link to Published Post": "2. 在发布的帖子中加入链接",
 	"Unlock": "解锁",
 	"x3 Boosted Rewards until June 13": "到6月13日之前获取三倍加速奖励",
-	"x3 Boosted Rewards until June 16": "到6月16日之前获取三倍加速奖励"
+	"x3 Boosted Rewards until June 16": "到6月16日之前获取三倍加速奖励",
+
+	// Haha campaign
+	"Complete tasks in HaHa Wallet": "排名最高的HaHa质押者",
+	"Top 1,111 participants by pokeMON balance get EnjoyPass": "pokeMON余额排名前1,111名的用户将获得EnjoyPass",
+	"Stake to get EnjoyPass": "通过质押获得EnjoyPass",
+	"Didn’t make the top 1,111?": "没有进入前1,111名？",
+	"You’re still in — 1,111 EnjoyPasses will be drawn among the rest": "你还有机会——我们将在剩下的用户中抽奖送出1,111个EnjoyPass",
+	"Stake now": "立即质押",
+	"Stake more": "质押更多",
+	"Lucky Enjoyoors": "幸运的Enjoyoor",
+	"SEE {leaderBoardTotal} PARTICIPANTS": "查看 {leaderBoardTotal}参与者",
+	"Get a limited NFT that enables a guaranteed pokeMON to $E swap, extra rewards, and mainnet perks": "获得限量版NFT，保障将pokeMON兑换成$E，并获得额外奖励和主网福利",
+	"2,222 EnjoyPasses for Lucky Enjoyoors": "为幸运的Enjoyoor准备了2,222个EnjoyPass",
+	"Stake via HaHa and get exciting rewards on our TGE": "通过Haha质押，在TGE当天获得惊喜奖励",
+	"{totalPointsAmount} Points & {totalStakedInUsd} staked": "{totalPointsAmount}个积分，质押额{totalStakedInUsd} ",
+	"You are #{place}": "你排名第#{place}",
 };
 
 const generate = () => {
