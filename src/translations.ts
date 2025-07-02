@@ -342,6 +342,18 @@ const TRANSLATIONS = {
 	"Stake via HaHa and get exciting rewards on our TGE": "通过Haha质押，在TGE当天获得惊喜奖励",
 	"{totalPointsAmount} Points & {totalStakedInUsd} staked": "{totalPointsAmount}个积分，质押额{totalStakedInUsd} ",
 	"You are #{place}": "你排名第#{place}",
+	"Enjoyooble rewards":	"Enjoyooble奖励",
+	"How to complete the tasks?": "如何完成任务",
+	"Just install the": "只需安装", 
+	"Haha Wallet": "HaHa钱包",
+	"and follow the in-app instructions.":	"，根据APP内指引操作。",
+	"How to stake my assets?":	"如何质押我的资产",
+	"Hop on the": "跳转到",
+	"main page": "主页",
+	", pick your asset, and start staking.":	"，选择你要质押的资产，然后就可以质押了。",
+	"How are ranks calculated?":	"排名是如何计算的？",
+	"The more pokeMON you’ve got — the higher your rank!":	"你持有的pokeMON越多，排名就越高。",
+	"Stake on Enjoyoors and catch ’em all to claim the top spot!":	"在Enjoyoors上质押，把握每个机会，抢占榜首位置。",
 };
 
 const generate = () => {
