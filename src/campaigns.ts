@@ -12,7 +12,7 @@ export const CAMPAIGNS: Campaign[] = [
 	{
 		name: "smMON boost",
 		startedAt: "2025-07-03T01:02:03.456Z",
-		endedAt: "2025-07-03T01:02:03.456Z",
+		endedAt: "2026-07-03T01:02:03.456Z",
 		type: "TwitterBoost",
 		boost: 3,
 		tokenId: 411,
