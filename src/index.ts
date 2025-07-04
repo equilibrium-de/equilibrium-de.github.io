@@ -5,6 +5,7 @@ import chains from "./chains";
 import vaults from "./vaults";
 import groups from "./groups";
 import translations from "./translations";
+import campaigns from "./campaigns";
 
 const entities = {
 	ecosystems,
@@ -13,6 +14,7 @@ const entities = {
 	vaults,
 	groups,
 	translations,
+	campaigns,
 } as const;
 
 const updateJson = (
@@ -23,6 +25,7 @@ const updateJson = (
 		| "vaults"
 		| "groups"
 		| "translations"
+		| "campaigns"
 ) => {
 	fs.writeFile(`${entity}/index.json`, entities[entity].generate(), (err) => {
 		if (err) {
@@ -32,9 +35,5 @@ const updateJson = (
 	});
 };
 
-updateJson("ecosystems");
-updateJson("chains");
-updateJson("tokens");
-updateJson("vaults");
-updateJson("groups");
 updateJson("translations");
+updateJson("campaigns");
