@@ -10,6 +10,14 @@ export type Campaign = {
 
 export const CAMPAIGNS: Campaign[] = [
 	{
+		name: "shMON boost",
+		startedAt: "2025-07-03T01:00:00.000Z",
+		endedAt: "2025-07-03T01:02:03.456Z",
+		type: "TwitterBoost",
+		boost: 3,
+		tokenId: 411,
+	},
+	{
 		name: "Nostra boost",
 		startedAt: "2025-07-07T13:00:00.000Z",
 		endedAt: "2025-07-27T13:00:00.000Z",
