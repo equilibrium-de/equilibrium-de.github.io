@@ -4,7 +4,7 @@ export type Campaign = {
 	endedAt: string;
 	type: "NftHolder" | "TwitterBoost";
 	boost: number;
-	tokenId: number;
+	tokenId?: number;
 	nftContracts?: string[];
 };
 
@@ -16,6 +16,14 @@ export const CAMPAIGNS: Campaign[] = [
 		type: "TwitterBoost",
 		boost: 3,
 		tokenId: 411,
+	},
+	{
+		name: "The10kSquad nft",
+		startedAt: "2025-07-03T01:02:03.456Z",
+		endedAt: "2026-07-03T01:02:03.456Z",
+		type: "NftHolder",
+		boost: 2,
+		nftContracts: ["0x3a9454c1b4c84d1861bb1209a647c834d137b442"],
 	},
 ];
 
