@@ -10,6 +10,9 @@ export type Campaign = {
 	partnerName?: string;
 };
 
+const nostraStart = "2025-07-09T01:00:00.000Z";
+const nostraEnd = "2025-07-23T01:00:00.000Z";
+
 export const CAMPAIGNS: Campaign[] = [
 	{
 		name: "shMON boost",
@@ -23,8 +26,8 @@ export const CAMPAIGNS: Campaign[] = [
 	},
 	{
 		name: "Nostra boost",
-		startedAt: "2025-07-07T13:00:00.000Z",
-		endedAt: "2025-07-22T13:00:00.000Z",
+		startedAt: nostraStart,
+		endedAt: nostraEnd,
 		type: "TwitterBoost",
 		boost: 3,
 		tokenId: 425,
@@ -33,8 +36,8 @@ export const CAMPAIGNS: Campaign[] = [
 	},
 	{
 		name: "Nostra boost",
-		startedAt: "2025-07-07T13:00:00.000Z",
-		endedAt: "2025-07-22T13:00:00.000Z",
+		startedAt: nostraStart,
+		endedAt: nostraEnd,
 		type: "TwitterBoost",
 		boost: 3,
 		tokenId: 426,
@@ -43,8 +46,8 @@ export const CAMPAIGNS: Campaign[] = [
 	},
 	{
 		name: "Nostra boost",
-		startedAt: "2025-07-07T13:00:00.000Z",
-		endedAt: "2025-07-22T13:00:00.000Z",
+		startedAt: nostraStart,
+		endedAt: nostraEnd,
 		type: "TwitterBoost",
 		boost: 3,
 		tokenId: 427,
@@ -53,8 +56,8 @@ export const CAMPAIGNS: Campaign[] = [
 	},
 	{
 		name: "Nostra boost",
-		startedAt: "2025-07-07T13:00:00.000Z",
-		endedAt: "2025-07-22T13:00:00.000Z",
+		startedAt: nostraStart,
+		endedAt: nostraEnd,
 		type: "TwitterBoost",
 		boost: 3,
 		tokenId: 428,
