@@ -6,6 +6,8 @@ export type Campaign = {
 	boost: number;
 	tokenId?: number;
 	nftContracts?: string[];
+	partnerTwitter?: string;
+	partnerName?: string;
 };
 
 export const CAMPAIGNS: Campaign[] = [
@@ -16,38 +18,48 @@ export const CAMPAIGNS: Campaign[] = [
 		type: "TwitterBoost",
 		boost: 3,
 		tokenId: 411,
+		partnerTwitter: "@0xFastLane",
+		partnerName: "Fastlane",
 	},
 	{
 		name: "Nostra boost",
 		startedAt: "2025-07-07T13:00:00.000Z",
-		endedAt: "2025-07-27T13:00:00.000Z",
+		endedAt: "2025-07-22T13:00:00.000Z",
 		type: "TwitterBoost",
 		boost: 3,
 		tokenId: 425,
+		partnerTwitter: "@nostrafinance",
+		partnerName: "Nostra",
 	},
 	{
 		name: "Nostra boost",
 		startedAt: "2025-07-07T13:00:00.000Z",
-		endedAt: "2025-07-27T13:00:00.000Z",
+		endedAt: "2025-07-22T13:00:00.000Z",
 		type: "TwitterBoost",
 		boost: 3,
 		tokenId: 426,
+		partnerTwitter: "@nostrafinance",
+		partnerName: "Nostra",
 	},
 	{
 		name: "Nostra boost",
 		startedAt: "2025-07-07T13:00:00.000Z",
-		endedAt: "2025-07-27T13:00:00.000Z",
+		endedAt: "2025-07-22T13:00:00.000Z",
 		type: "TwitterBoost",
 		boost: 3,
 		tokenId: 427,
+		partnerTwitter: "@nostrafinance",
+		partnerName: "Nostra",
 	},
 	{
 		name: "Nostra boost",
 		startedAt: "2025-07-07T13:00:00.000Z",
-		endedAt: "2025-07-27T13:00:00.000Z",
+		endedAt: "2025-07-22T13:00:00.000Z",
 		type: "TwitterBoost",
 		boost: 3,
 		tokenId: 428,
+		partnerTwitter: "@nostrafinance",
+		partnerName: "Nostra",
 	},
 	{
 		name: "The10kSquad nft",
