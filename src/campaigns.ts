@@ -8,9 +8,12 @@ export type Campaign = {
 	nftStandard?: "erc721" | "erc1155";
 	nftContracts?: string[];
 	nftUri?: string;
+	nftImgSrc?: string;
 	partnerTwitter?: string;
 	partnerName?: string;
 };
+
+export const CDN_ORIGIN = "https://content.enjoyoors.xyz";
 
 const nostraStart = "2025-07-09T01:00:00.000Z";
 const nostraEnd = "2025-07-23T01:00:00.000Z";
@@ -74,6 +77,7 @@ export const CAMPAIGNS: Campaign[] = [
 		nftStandard: "erc721",
 		boost: 2,
 		nftContracts: ["0x3a9454c1b4c84d1861bb1209a647c834d137b442"],
+		nftImgSrc: `${CDN_ORIGIN}/img/the-10k-squad.svg`,
 		nftUri:
 			"https://magiceden.io/collections/monad-testnet/0x3a9454c1b4c84d1861bb1209a647c834d137b442",
 	},
@@ -85,6 +89,7 @@ export const CAMPAIGNS: Campaign[] = [
 		nftStandard: "erc1155",
 		boost: 2,
 		nftContracts: ["0x26c86f2835c114571df2b6ce9ba52296cc0fa6bb"],
+		nftImgSrc: `${CDN_ORIGIN}/img/lil-chogstars.webp`,
 		nftUri:
 			"https://magiceden.io/collections/monad-testnet/0x26c86f2835c114571df2b6ce9ba52296cc0fa6bb",
 	},
