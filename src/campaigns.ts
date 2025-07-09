@@ -7,6 +7,7 @@ export type Campaign = {
 	tokenId?: number;
 	nftStandard?: "erc721" | "erc1155";
 	nftContracts?: string[];
+	nftUri?: string;
 	partnerTwitter?: string;
 	partnerName?: string;
 };
@@ -73,6 +74,8 @@ export const CAMPAIGNS: Campaign[] = [
 		nftStandard: "erc721",
 		boost: 2,
 		nftContracts: ["0x3a9454c1b4c84d1861bb1209a647c834d137b442"],
+		nftUri:
+			"https://magiceden.io/collections/monad-testnet/0x3a9454c1b4c84d1861bb1209a647c834d137b442",
 	},
 	{
 		name: "LilChogstarts",
@@ -82,6 +85,8 @@ export const CAMPAIGNS: Campaign[] = [
 		nftStandard: "erc1155",
 		boost: 2,
 		nftContracts: ["0x26c86f2835c114571df2b6ce9ba52296cc0fa6bb"],
+		nftUri:
+			"https://magiceden.io/collections/monad-testnet/0x26c86f2835c114571df2b6ce9ba52296cc0fa6bb",
 	},
 ];
 
