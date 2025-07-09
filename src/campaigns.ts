@@ -5,6 +5,7 @@ export type Campaign = {
 	type: "NftHolder" | "TwitterBoost";
 	boost: number;
 	tokenId?: number;
+	nftStandard?: "erc721" | "erc1155";
 	nftContracts?: string[];
 	partnerTwitter?: string;
 	partnerName?: string;
@@ -69,6 +70,7 @@ export const CAMPAIGNS: Campaign[] = [
 		startedAt: "2025-07-08T01:00:00.000Z",
 		endedAt: "2026-07-29T01:00:00.000Z",
 		type: "NftHolder",
+		nftStandard: "erc721",
 		boost: 2,
 		nftContracts: ["0x3a9454c1b4c84d1861bb1209a647c834d137b442"],
 	},
@@ -77,6 +79,7 @@ export const CAMPAIGNS: Campaign[] = [
 		startedAt: "2025-07-11T01:00:00.000Z",
 		endedAt: "2026-08-01T01:00:00.000Z",
 		type: "NftHolder",
+		nftStandard: "erc1155",
 		boost: 2,
 		nftContracts: ["0x26c86f2835c114571df2b6ce9ba52296cc0fa6bb"],
 	},
