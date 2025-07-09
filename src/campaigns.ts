@@ -66,7 +66,7 @@ export const CAMPAIGNS: Campaign[] = [
 		partnerName: "Nostra",
 	},
 	{
-		name: "The10kSquad nft",
+		name: "The10kSquad",
 		startedAt: "2025-07-08T01:00:00.000Z",
 		endedAt: "2026-07-29T01:00:00.000Z",
 		type: "NftHolder",
@@ -75,7 +75,7 @@ export const CAMPAIGNS: Campaign[] = [
 		nftContracts: ["0x3a9454c1b4c84d1861bb1209a647c834d137b442"],
 	},
 	{
-		name: "LilChogstars nft",
+		name: "LilChogstarts",
 		startedAt: "2025-07-01T01:00:00.000Z",
 		endedAt: "2026-08-01T01:00:00.000Z",
 		type: "NftHolder",
