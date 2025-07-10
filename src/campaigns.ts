@@ -1,6 +1,6 @@
 export type Campaign = {
 	name: string;
-	startedAt: string; // 2025-07-03T01:02:03.456Z
+	startedAt: string; // 2025-07-03T13:02:03.456Z
 	endedAt: string;
 	type: "NftHolder" | "TwitterBoost";
 	boost: number;
@@ -19,14 +19,14 @@ export type Campaign = {
 
 export const CDN_ORIGIN = "https://content.enjoyoors.xyz";
 
-const nostraStart = "2025-07-09T01:00:00.000Z";
-const nostraEnd = "2025-07-23T01:00:00.000Z";
+const nostraStart = "2025-07-09T13:00:00.000Z";
+const nostraEnd = "2025-07-23T13:00:00.000Z";
 
 export const CAMPAIGNS: Campaign[] = [
 	{
 		name: "shMON boost",
-		startedAt: "2025-07-03T01:00:00.000Z",
-		endedAt: "2025-07-03T01:02:03.456Z",
+		startedAt: "2025-07-03T13:00:00.000Z",
+		endedAt: "2025-07-03T13:02:03.456Z",
 		type: "TwitterBoost",
 		boost: 3,
 		tokenId: 411,
@@ -75,8 +75,8 @@ export const CAMPAIGNS: Campaign[] = [
 	},
 	{
 		name: "The10kSquad",
-		startedAt: "2025-07-08T01:00:00.000Z",
-		endedAt: "2026-07-29T01:00:00.000Z",
+		startedAt: "2025-07-08T13:00:00.000Z",
+		endedAt: "2025-07-29T13:00:00.000Z",
 		type: "NftHolder",
 		nftStandard: "erc721",
 		boost: 2,
@@ -90,8 +90,8 @@ export const CAMPAIGNS: Campaign[] = [
 	},
 	{
 		name: "LilChogstarts",
-		startedAt: "2025-07-11T01:00:00.000Z",
-		endedAt: "2026-08-01T01:00:00.000Z",
+		startedAt: "2025-07-11T13:00:00.000Z",
+		endedAt: "2025-08-01T13:00:00.000Z",
 		type: "NftHolder",
 		nftStandard: "erc1155",
 		boost: 2,
@@ -106,8 +106,8 @@ export const CAMPAIGNS: Campaign[] = [
 	},
 	{
 		name: "Monadverse",
-		startedAt: "2025-07-10T01:00:00.000Z",
-		endedAt: "2026-07-31T01:00:00.000Z",
+		startedAt: "2025-07-10T13:00:00.000Z",
+		endedAt: "2025-07-31T13:00:00.000Z",
 		type: "NftHolder",
 		nftStandard: "erc1155",
 		boost: 2,
