@@ -182,6 +182,13 @@ export const CAMPAIGNS: Campaign[] = [
 				uri: "https://magiceden.us/collections/monad-testnet/0xa18e1c7c6e8c663c5d835fffd70ef07b482fe884",
 				tokenId: 1,
 			},
+			{
+				title: "Monadverse Genesis Hatch",
+				address: "0x2ace467d5c55d75cf04ae7b9c7672bc499d8e246",
+				imgSrc: `https://img-cdn.magiceden.dev/autoquality:size:1024000:20:80/da:t/rs:fill:400:0:0/plain/https%3A%2F%2Fimg.reservoir.tools%2Fimages%2Fv2%2Fmonad-testnet%2FrSNTYhb5erNxjAvRIO43VmyRWA65FLBByGN48YnLWEaK1qhgk0UdUhpIzDeYZajJDUHBbk7Vw%252BRf7ieKh8bG8cfRHt8dabqwxqUT7fGDRQ2jQ9xbclnJkgXu4f4ivW2Q.gif`,
+				uri: "https://magiceden.io/collections/monad-testnet/0x2ace467d5c55d75cf04ae7b9c7672bc499d8e246",
+				tokenId: 0,
+			},
 		],
 	},
 ];
