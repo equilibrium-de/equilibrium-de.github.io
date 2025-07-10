@@ -90,7 +90,7 @@ export const CAMPAIGNS: Campaign[] = [
 	},
 	{
 		name: "LilChogstarts",
-		startedAt: "2025-07-01T01:00:00.000Z",
+		startedAt: "2025-07-11T01:00:00.000Z",
 		endedAt: "2026-08-01T01:00:00.000Z",
 		type: "NftHolder",
 		nftStandard: "erc1155",
@@ -106,8 +106,8 @@ export const CAMPAIGNS: Campaign[] = [
 	},
 	{
 		name: "Monadverse",
-		startedAt: "2025-07-01T01:00:00.000Z",
-		endedAt: "2026-08-01T01:00:00.000Z",
+		startedAt: "2025-07-10T01:00:00.000Z",
+		endedAt: "2026-07-31T01:00:00.000Z",
 		type: "NftHolder",
 		nftStandard: "erc1155",
 		boost: 2,
