@@ -106,7 +106,7 @@ export const CAMPAIGNS: Campaign[] = [
 	},
 	{
 		name: "Monadverse",
-		startedAt: "2025-07-10T01:00:00.000Z",
+		startedAt: "2025-07-09T01:00:00.000Z",
 		endedAt: "2026-07-31T01:00:00.000Z",
 		type: "NftHolder",
 		nftStandard: "erc1155",
