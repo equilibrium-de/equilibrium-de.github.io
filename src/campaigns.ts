@@ -89,7 +89,7 @@ export const CAMPAIGNS: Campaign[] = [
 		],
 	},
 	{
-		name: "LilChogstarts",
+		name: "LilChogstars",
 		startedAt: "2025-07-11T13:00:00.000Z",
 		endedAt: "2025-08-01T13:00:00.000Z",
 		type: "NftHolder",
