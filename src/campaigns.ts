@@ -1,21 +1,36 @@
-export type Campaign = {
+type BoostBase = {
 	name: string;
-	startedAt: string; // 2025-07-03T13:02:03.456Z
+	startedAt: string;
 	endedAt: string;
 	type: "NftHolder" | "TwitterBoost" | "TokenBoost";
 	boost: number;
-	tokenId?: number;
-	nftStandard?: "erc721" | "erc1155";
-	nftContracts?: {
+};
+
+type NftHolderBoost = BoostBase & {
+	type: "NftHolder";
+	nftStandard: "erc721" | "erc1155";
+	nftContracts: {
 		title?: string;
 		address: string;
 		imgSrc: string;
 		uri: string;
 		tokenId?: number;
 	}[];
-	partnerTwitter?: string;
-	partnerName?: string;
 };
+
+type TwitterBoost = BoostBase & {
+	type: "TwitterBoost";
+	partnerTwitter: string;
+	partnerName: string;
+	tokenId: number;
+};
+
+type TokenBoost = BoostBase & {
+	type: "TokenBoost";
+	tokenId: number;
+};
+
+type Campaign = NftHolderBoost | TwitterBoost | TokenBoost;
 
 export const CDN_ORIGIN = "https://content.enjoyoors.xyz";
 
@@ -23,14 +38,14 @@ const nostraStart = "2025-07-09T13:00:00.000Z";
 const nostraEnd = "2025-07-23T13:00:00.000Z";
 
 export const CAMPAIGNS: Campaign[] = [
-	{
-		name: "shMON boost",
-		startedAt: "2025-07-13T13:00:00.000Z",
-		endedAt: "2025-07-28T13:00:00.000Z",
-		type: "TokenBoost",
-		boost: 3,
-		tokenId: 411,
-	},
+	// {
+	// 	name: "shMON boost",
+	// 	startedAt: "2025-07-13T13:00:00.000Z",
+	// 	endedAt: "2025-07-28T13:00:00.000Z",
+	// 	type: "TokenBoost",
+	// 	boost: 3,
+	// 	tokenId: 411,
+	// },
 	{
 		name: "Nostra boost",
 		startedAt: nostraStart,
