@@ -2,7 +2,7 @@ export type Campaign = {
 	name: string;
 	startedAt: string; // 2025-07-03T13:02:03.456Z
 	endedAt: string;
-	type: "NftHolder" | "TwitterBoost";
+	type: "NftHolder" | "TwitterBoost" | "TokenBoost";
 	boost: number;
 	tokenId?: number;
 	nftStandard?: "erc721" | "erc1155";
@@ -25,9 +25,9 @@ const nostraEnd = "2025-07-23T13:00:00.000Z";
 export const CAMPAIGNS: Campaign[] = [
 	{
 		name: "shMON boost",
-		startedAt: "2025-07-03T13:00:00.000Z",
-		endedAt: "2025-07-03T13:02:03.456Z",
-		type: "TwitterBoost",
+		startedAt: "2025-07-13T13:00:00.000Z",
+		endedAt: "2025-07-28T13:00:00.000Z",
+		type: "TokenBoost",
 		boost: 3,
 		tokenId: 411,
 		partnerTwitter: "@0xFastLane",
