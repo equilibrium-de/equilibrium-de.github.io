@@ -38,14 +38,14 @@ const nostraStart = "2025-07-09T13:00:00.000Z";
 const nostraEnd = "2025-07-23T13:00:00.000Z";
 
 export const CAMPAIGNS: Campaign[] = [
-	// {
-	// 	name: "shMON boost",
-	// 	startedAt: "2025-07-13T13:00:00.000Z",
-	// 	endedAt: "2025-07-28T13:00:00.000Z",
-	// 	type: "TokenBoost",
-	// 	boost: 3,
-	// 	tokenId: 411,
-	// },
+	{
+		name: "shMON boost",
+		startedAt: "2025-07-14T13:00:00.000Z",
+		endedAt: "2025-07-28T13:00:00.000Z",
+		type: "TokenBoost",
+		boost: 3,
+		tokenId: 411,
+	},
 	{
 		name: "Nostra boost",
 		startedAt: nostraStart,
