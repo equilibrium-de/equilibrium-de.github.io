@@ -30,8 +30,6 @@ export const CAMPAIGNS: Campaign[] = [
 		type: "TokenBoost",
 		boost: 3,
 		tokenId: 411,
-		partnerTwitter: "@0xFastLane",
-		partnerName: "Fastlane",
 	},
 	{
 		name: "Nostra boost",
