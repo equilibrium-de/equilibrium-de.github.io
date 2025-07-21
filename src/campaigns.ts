@@ -23,6 +23,7 @@ type TwitterBoost = BoostBase & {
 	partnerTwitter: string;
 	partnerName: string;
 	tokenId: number;
+	isSummerMadness?: boolean;
 };
 
 type TokenBoost = BoostBase & {
@@ -38,6 +39,17 @@ const nostraStart = "2025-07-09T13:00:00.000Z";
 const nostraEnd = "2025-07-23T13:00:00.000Z";
 
 export const CAMPAIGNS: Campaign[] = [
+	{
+		name: "sMON summer",
+		startedAt: "2025-07-21T13:00:00.000Z",
+		endedAt: "2025-07-28T13:00:00.000Z",
+		type: "TwitterBoost",
+		boost: 5,
+		tokenId: 419,
+		partnerTwitter: "@Kintsu_xyz",
+		partnerName: "Kintsu",
+		isSummerMadness: true,
+	},
 	{
 		name: "shMON boost",
 		startedAt: "2025-07-14T13:00:00.000Z",
