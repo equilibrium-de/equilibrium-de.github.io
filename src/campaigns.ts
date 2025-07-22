@@ -71,6 +71,16 @@ export const CAMPAIGNS: Campaign[] = [
 		partnerName: "Bean",
 	},
 	{
+		name: "BEAN boost",
+		startedAt: "2025-07-22T13:00:00.000Z",
+		endedAt: "2025-08-05T13:00:00.000Z",
+		type: "TwitterBoost",
+		boost: 3,
+		tokenId: 437,
+		partnerTwitter: "@Bean_DEX",
+		partnerName: "Bean",
+	},
+	{
 		name: "shMON boost",
 		startedAt: "2025-07-14T13:00:00.000Z",
 		endedAt: "2025-07-28T13:00:00.000Z",
