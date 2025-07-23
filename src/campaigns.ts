@@ -81,16 +81,6 @@ export const CAMPAIGNS: Campaign[] = [
 		partnerName: "Bean",
 	},
 	{
-		name: "shMON boost",
-		startedAt: "2025-07-14T13:00:00.000Z",
-		endedAt: "2025-07-28T13:00:00.000Z",
-		type: "TwitterBoost",
-		boost: 3,
-		tokenId: 411,
-		partnerTwitter: "@0xFastLane",
-		partnerName: "Fastlane",
-	},
-	{
 		name: "Nostra boost",
 		startedAt: nostraStart,
 		endedAt: nostraEnd,
