@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import tokenLinks from "./token-links";
 import tokens from "./tokens";
 import ecosystems from "./ecosystems";
 import chains from "./chains";
@@ -15,6 +16,7 @@ const entities = {
 	groups,
 	translations,
 	campaigns,
+	tokenLinks,
 } as const;
 
 const updateJson = (
@@ -26,6 +28,7 @@ const updateJson = (
 		| "groups"
 		| "translations"
 		| "campaigns"
+		| "tokenLinks"
 ) => {
 	fs.writeFile(`${entity}/index.json`, entities[entity].generate(), (err) => {
 		if (err) {
@@ -35,5 +38,6 @@ const updateJson = (
 	});
 };
 
+updateJson("tokenLinks");
 updateJson("translations");
 updateJson("campaigns");
