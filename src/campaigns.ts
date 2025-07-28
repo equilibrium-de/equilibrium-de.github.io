@@ -40,14 +40,14 @@ type Campaign = NftHolderBoost | TwitterBoost | TokenBoost | SummerGiveaway;
 export const CDN_ORIGIN = "https://content.enjoyoors.xyz";
 
 export const CAMPAIGNS: Campaign[] = [
-	// {
-	// 	name: "First summer giveaway",
-	// 	startedAt: "2025-07-28T13:00:00.000Z",
-	// 	endedAt: "2025-08-04T13:00:00.000Z",
-	// 	type: "SummerGiveaway",
-	// 	giveawayUrl: "#",
-	// 	boost: 1,
-	// },
+	{
+		name: "First summer giveaway",
+		startedAt: "2025-07-28T13:00:00.000Z",
+		endedAt: "2025-08-04T13:00:00.000Z",
+		type: "SummerGiveaway",
+		giveawayUrl: "https://x.com/enjoyoorsxyz/status/1949815747103863112",
+		boost: 1,
+	},
 	{
 		name: "sMON summer",
 		startedAt: "2025-07-21T13:00:00.000Z",
