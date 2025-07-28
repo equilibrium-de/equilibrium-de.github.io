@@ -2,7 +2,7 @@ type BoostBase = {
 	name: string;
 	startedAt: string;
 	endedAt: string;
-	type: "NftHolder" | "TwitterBoost" | "TokenBoost";
+	type: "NftHolder" | "TwitterBoost" | "TokenBoost" | "SummerGiveaway";
 	boost: number;
 };
 
@@ -30,15 +30,24 @@ type TokenBoost = BoostBase & {
 	type: "TokenBoost";
 	tokenId: number;
 };
+type SummerGiveaway = BoostBase & {
+	type: "SummerGiveaway";
+	giveawayUrl: string;
+};
 
-type Campaign = NftHolderBoost | TwitterBoost | TokenBoost;
+type Campaign = NftHolderBoost | TwitterBoost | TokenBoost | SummerGiveaway;
 
 export const CDN_ORIGIN = "https://content.enjoyoors.xyz";
 
-const nostraStart = "2025-07-09T13:00:00.000Z";
-const nostraEnd = "2025-07-23T13:00:00.000Z";
-
 export const CAMPAIGNS: Campaign[] = [
+	// {
+	// 	name: "First summer giveaway",
+	// 	startedAt: "2025-07-28T13:00:00.000Z",
+	// 	endedAt: "2025-08-04T13:00:00.000Z",
+	// 	type: "SummerGiveaway",
+	// 	giveawayUrl: "#",
+	// 	boost: 1,
+	// },
 	{
 		name: "sMON summer",
 		startedAt: "2025-07-21T13:00:00.000Z",
@@ -79,46 +88,6 @@ export const CAMPAIGNS: Campaign[] = [
 		tokenId: 437,
 		partnerTwitter: "@Bean_DEX",
 		partnerName: "Bean",
-	},
-	{
-		name: "Nostra boost",
-		startedAt: nostraStart,
-		endedAt: nostraEnd,
-		type: "TwitterBoost",
-		boost: 3,
-		tokenId: 425,
-		partnerTwitter: "@nostrafinance",
-		partnerName: "Nostra",
-	},
-	{
-		name: "Nostra boost",
-		startedAt: nostraStart,
-		endedAt: nostraEnd,
-		type: "TwitterBoost",
-		boost: 3,
-		tokenId: 426,
-		partnerTwitter: "@nostrafinance",
-		partnerName: "Nostra",
-	},
-	{
-		name: "Nostra boost",
-		startedAt: nostraStart,
-		endedAt: nostraEnd,
-		type: "TwitterBoost",
-		boost: 3,
-		tokenId: 427,
-		partnerTwitter: "@nostrafinance",
-		partnerName: "Nostra",
-	},
-	{
-		name: "Nostra boost",
-		startedAt: nostraStart,
-		endedAt: nostraEnd,
-		type: "TwitterBoost",
-		boost: 3,
-		tokenId: 428,
-		partnerTwitter: "@nostrafinance",
-		partnerName: "Nostra",
 	},
 	{
 		name: "The10kSquad",

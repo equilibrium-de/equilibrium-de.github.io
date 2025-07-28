@@ -99,6 +99,11 @@ const LINKS = {
 	},
 	"431": {
 		id: 431,
+		symbol: "FIABTC",
+		getLink: "https://beta-test-bridge.fiammalabs.io/bridge",
+	},
+	"432": {
+		id: 432,
 		symbol: "wWETH",
 		getLink:
 			"https://monad.ambient.finance/swap/chain=0x279f&tokenA=0x0000000000000000000000000000000000000000&tokenB=0xA296f47E8Ff895Ed7A092b4a9498bb13C46ac768",
