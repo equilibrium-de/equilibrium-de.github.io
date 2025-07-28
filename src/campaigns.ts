@@ -43,7 +43,7 @@ export const CAMPAIGNS: Campaign[] = [
 	{
 		name: "First summer giveaway",
 		startedAt: "2025-07-28T13:00:00.000Z",
-		endedAt: "2025-08-04T13:00:00.000Z",
+		endedAt: "2025-08-03T13:00:00.000Z",
 		type: "SummerGiveaway",
 		giveawayUrl: "https://x.com/enjoyoorsxyz/status/1949815747103863112",
 		boost: 1,
