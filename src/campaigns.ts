@@ -41,6 +41,16 @@ export const CDN_ORIGIN = "https://content.enjoyoors.xyz";
 
 export const CAMPAIGNS: Campaign[] = [
 	{
+		name: "gMON boost",
+		startedAt: "2025-07-29T13:00:00.000Z",
+		endedAt: "2025-08-12T13:00:00.000Z",
+		type: "TwitterBoost",
+		boost: 3,
+		tokenId: 422,
+		partnerTwitter: "@MagmaStaking",
+		partnerName: "Magma",
+	},
+	{
 		name: "First summer giveaway",
 		startedAt: "2025-07-28T13:00:00.000Z",
 		endedAt: "2025-08-03T13:00:00.000Z",
