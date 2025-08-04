@@ -72,7 +72,7 @@ const MOCK_CAMPAIGNS = [
 		endedAt: "2025-08-11T13:00:00.000Z",
 		type: "SummerMadness",
 		boost: 5,
-		tokenId: 413, // wmon
+		tokenId: 438, // wmon
 		partnerTwitter: "@MuDigitalHQ",
 		partnerName: "Mu Digital",
 		nftStandard: "erc721",
@@ -108,7 +108,7 @@ export const CAMPAIGNS: Campaign[] = [
 		boost: 1,
 	},
 	{
-		name: "muBOND summer",
+		name: "MuDigital",
 		startedAt: "2025-08-04T13:00:00.000Z",
 		endedAt: "2025-08-11T13:00:00.000Z",
 		type: "SummerMadness",
