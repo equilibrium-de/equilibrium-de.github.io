@@ -2,7 +2,12 @@ type BoostBase = {
 	name: string;
 	startedAt: string;
 	endedAt: string;
-	type: "NftHolder" | "TwitterBoost" | "TokenBoost" | "SummerGiveaway";
+	type:
+		| "NftHolder"
+		| "TwitterBoost"
+		| "TokenBoost"
+		| "SummerMadness"
+		| "SummerGiveaway";
 	boost: number;
 };
 
@@ -23,7 +28,23 @@ type TwitterBoost = BoostBase & {
 	partnerTwitter: string;
 	partnerName: string;
 	tokenId: number;
-	isSummerMadness?: boolean;
+};
+
+type SummerMadness = BoostBase & {
+	type: "SummerMadness";
+	partnerTwitter: string;
+	partnerName: string;
+	tokenId: number;
+	nftBoost?: number;
+	combinedBoost?: number;
+	nftStandard?: "erc721" | "erc1155";
+	nftContracts?: {
+		title?: string;
+		address: string;
+		imgSrc: string;
+		uri: string;
+		tokenId?: number;
+	}[];
 };
 
 type TokenBoost = BoostBase & {
@@ -35,9 +56,37 @@ type SummerGiveaway = BoostBase & {
 	giveawayUrl: string;
 };
 
-type Campaign = NftHolderBoost | TwitterBoost | TokenBoost | SummerGiveaway;
+type Campaign =
+	| NftHolderBoost
+	| TwitterBoost
+	| TokenBoost
+	| SummerGiveaway
+	| SummerMadness;
 
 export const CDN_ORIGIN = "https://content.enjoyoors.xyz";
+
+const MOCK_CAMPAIGNS = [
+	{
+		name: "muBOND summer",
+		startedAt: "2025-07-04T13:00:00.000Z",
+		endedAt: "2025-08-11T13:00:00.000Z",
+		type: "SummerMadness",
+		boost: 5,
+		tokenId: 438, // wmon
+		partnerTwitter: "@MuDigitalHQ",
+		partnerName: "Mu Digital",
+		nftStandard: "erc721",
+		nftBoost: 2,
+		combinedBoost: 7,
+		nftContracts: [
+			{
+				address: "0x6370b232d67956bfEAb57508Eb889249664DBE71",
+				imgSrc: `https://content.enjoyoors.xyz/img/mu-nft.png`,
+				uri: "https://magiceden.io/collections/monad-testnet/0x6370b232d67956bfeab57508eb889249664dbe71",
+			},
+		],
+	},
+];
 
 export const CAMPAIGNS: Campaign[] = [
 	{
@@ -59,15 +108,24 @@ export const CAMPAIGNS: Campaign[] = [
 		boost: 1,
 	},
 	{
-		name: "sMON summer",
-		startedAt: "2025-07-21T13:00:00.000Z",
-		endedAt: "2025-07-28T13:00:00.000Z",
-		type: "TwitterBoost",
+		name: "MuDigital",
+		startedAt: "2025-08-04T13:00:00.000Z",
+		endedAt: "2025-08-11T13:00:00.000Z",
+		type: "SummerMadness",
 		boost: 5,
-		tokenId: 419,
-		partnerTwitter: "@Kintsu_xyz",
-		partnerName: "Kintsu",
-		isSummerMadness: true,
+		tokenId: 438,
+		partnerTwitter: "@MuDigitalHQ",
+		partnerName: "Mu Digital",
+		nftStandard: "erc721",
+		nftBoost: 2,
+		combinedBoost: 7,
+		nftContracts: [
+			{
+				address: "0x6370b232d67956bfEAb57508Eb889249664DBE71",
+				imgSrc: `${CDN_ORIGIN}/img/mu-nft.png`,
+				uri: "https://magiceden.io/collections/monad-testnet/0x6370b232d67956bfeab57508eb889249664dbe71",
+			},
+		],
 	},
 	{
 		name: "shMON boost",
