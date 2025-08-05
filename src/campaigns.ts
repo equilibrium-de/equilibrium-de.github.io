@@ -122,7 +122,8 @@ export const CAMPAIGNS: Campaign[] = [
 		nftContracts: [
 			{
 				address: "0x6370b232d67956bfEAb57508Eb889249664DBE71",
-				imgSrc: `${CDN_ORIGIN}/img/mu-nft.png`,
+				title: "Mu Digital Genesis NFT",
+				imgSrc: `https://img-cdn.magiceden.dev/rs:fill:400:0:0/plain/https%3A%2F%2Fimg.reservoir.tools%2Fimages%2Fv2%2Fmonad-testnet%2FRJ7qjhiLGTgp0fypXnx5pmO6oGGQxLsMpfSqOTMxkBSDmp%252F9TArFDstpek6sxA3jMOacZoO1SK0jgDm0HVgncR3Ali3Rw%252FilJQk5ocmYXFKa7wHN%252FpAPPoVA1L3H7MS4nI9CucTr4RbWYJ5Hm2XbVpOsxr1pxW0Ric2IAbrEA6GvhnAuzripmmk9JO%252FKO3ji`,
 				uri: "https://magiceden.io/collections/monad-testnet/0x6370b232d67956bfeab57508eb889249664dbe71",
 			},
 		],
