@@ -37,6 +37,7 @@ type SummerMadness = BoostBase & {
 	tokenId: number;
 	nftBoost?: number;
 	combinedBoost?: number;
+	activatesViaTwitter?: boolean;
 	nftStandard?: "erc721" | "erc1155";
 	nftContracts?: {
 		title?: string;
@@ -114,6 +115,7 @@ export const CAMPAIGNS: Campaign[] = [
 		type: "SummerMadness",
 		boost: 5,
 		tokenId: 438,
+		activatesViaTwitter: true,
 		partnerTwitter: "@MuDigitalHQ",
 		partnerName: "Mu Digital",
 		nftStandard: "erc721",
@@ -157,6 +159,26 @@ export const CAMPAIGNS: Campaign[] = [
 		tokenId: 437,
 		partnerTwitter: "@Bean_DEX",
 		partnerName: "Bean",
+	},
+	{
+		name: "OctoSwap LP gigaETH",
+		startedAt: "2025-08-06T13:00:00.000Z",
+		endedAt: "2025-08-20T13:00:00.000Z",
+		type: "TwitterBoost",
+		boost: 3,
+		tokenId: 471,
+		partnerTwitter: "@OctoSwapDex",
+		partnerName: "OctoSwapDex",
+	},
+	{
+		name: "OctoSwap LP gigaETH",
+		startedAt: "2025-08-06T13:00:00.000Z",
+		endedAt: "2025-08-20T13:00:00.000Z",
+		type: "TwitterBoost",
+		boost: 3,
+		tokenId: 472,
+		partnerTwitter: "@OctoSwapDex",
+		partnerName: "OctoSwapDex",
 	},
 	{
 		name: "The10kSquad",
