@@ -135,6 +135,18 @@ const LINKS = {
 		symbol: "muBOND",
 		getLink: "https://testnet.mudigital.net/",
 	},
+	"472": {
+		id: 472,
+		symbol: "Stake LP (gigaETH/WMON)",
+		getLink:
+			"https://octo.exchange/add-liquidity-v1?pair=0xc9f572900a770422db3a5053f3c265f858eafe18",
+	},
+	"471": {
+		id: 471,
+		symbol: "Stake LP (gigaETH/wWETH)",
+		getLink:
+			"https://octo.exchange/add-liquidity-v1?pair=0x063660ce4655bf07445014f96e4a4df92f5f75da",
+	},
 };
 
 const generate = () => {
