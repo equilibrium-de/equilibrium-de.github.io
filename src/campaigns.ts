@@ -101,11 +101,11 @@ export const CAMPAIGNS: Campaign[] = [
 		partnerName: "Magma",
 	},
 	{
-		name: "First summer giveaway",
-		startedAt: "2025-07-28T13:00:00.000Z",
-		endedAt: "2025-08-03T13:00:00.000Z",
+		name: "Second summer giveaway",
+		startedAt: "2025-08-11T13:00:00.000Z",
+		endedAt: "2025-08-18T13:00:00.000Z",
 		type: "SummerGiveaway",
-		giveawayUrl: "https://x.com/enjoyoorsxyz/status/1949815747103863112",
+		giveawayUrl: "https://x.com/enjoyoorsxyz/status/1954894552159916282",
 		boost: 1,
 	},
 	{
