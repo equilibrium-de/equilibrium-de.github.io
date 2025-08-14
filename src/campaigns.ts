@@ -66,57 +66,29 @@ type Campaign =
 
 export const CDN_ORIGIN = "https://content.enjoyoors.xyz";
 
-const coeffs = {
-	473: 0.000031,
-	474: 0.0000507408948546056,
-	430: 0.0000253704474273028,
-};
-
 export const CAMPAIGNS: Campaign[] = [
 	{
 		name: "cUSDC boost",
 		startedAt: "2025-08-14T13:00:00.000Z",
 		endedAt: "2025-08-28T13:00:00.000Z",
 		type: "TwitterBoost",
-		boost: 3 * coeffs[473],
+		boost: 3,
 		tokenId: 473,
 		partnerTwitter: "@curvance",
 		partnerName: "Curvance",
 	},
-	// {
-	// 	name: "cUSDC coef corr",
-	// 	startedAt: "2025-08-13T13:00:00.000Z",
-	// 	endedAt: "2025-08-14T13:00:00.000Z",
-	// 	type: "TokenBoost",
-	// 	boost: 1 * coeffs[473],
-	// 	tokenId: 473,
-	// },
+
 	{
 		name: "cWBTC boost",
 		startedAt: "2025-08-14T13:00:00.000Z",
 		endedAt: "2025-08-28T13:00:00.000Z",
 		type: "TwitterBoost",
-		boost: 3 * coeffs[474],
+		boost: 3,
 		tokenId: 474,
 		partnerTwitter: "@curvance",
 		partnerName: "Curvance",
 	},
-	// {
-	// 	name: "cWBTC coef corr",
-	// 	startedAt: "2025-08-13T13:00:00.000Z",
-	// 	endedAt: "2025-08-14T13:00:00.000Z",
-	// 	type: "TokenBoost",
-	// 	boost: 1 * coeffs[474],
-	// 	tokenId: 474,
-	// },
-	// {
-	// 	name: "pumpBTC coef corr",
-	// 	startedAt: "2025-08-13T13:00:00.000Z",
-	// 	endedAt: "2026-08-14T13:00:00.000Z",
-	// 	type: "TokenBoost",
-	// 	boost: 1 * coeffs[430],
-	// 	tokenId: 430,
-	// },
+
 	{
 		name: "Second summer giveaway",
 		startedAt: "2025-08-11T13:00:00.000Z",
