@@ -68,28 +68,6 @@ export const CDN_ORIGIN = "https://content.enjoyoors.xyz";
 
 export const CAMPAIGNS: Campaign[] = [
 	{
-		name: "cUSDC boost",
-		startedAt: "2025-08-14T13:00:00.000Z",
-		endedAt: "2025-08-28T13:00:00.000Z",
-		type: "TwitterBoost",
-		boost: 3,
-		tokenId: 473,
-		partnerTwitter: "@curvance",
-		partnerName: "Curvance",
-	},
-
-	{
-		name: "cWBTC boost",
-		startedAt: "2025-08-14T13:00:00.000Z",
-		endedAt: "2025-08-28T13:00:00.000Z",
-		type: "TwitterBoost",
-		boost: 3,
-		tokenId: 474,
-		partnerTwitter: "@curvance",
-		partnerName: "Curvance",
-	},
-
-	{
 		name: "Second summer giveaway",
 		startedAt: "2025-08-11T13:00:00.000Z",
 		endedAt: "2025-08-18T13:00:00.000Z",
