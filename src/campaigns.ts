@@ -68,19 +68,11 @@ export const CDN_ORIGIN = "https://content.enjoyoors.xyz";
 
 export const CAMPAIGNS: Campaign[] = [
 	{
-		name: "Second summer giveaway",
-		startedAt: "2025-08-11T13:00:00.000Z",
-		endedAt: "2025-08-18T13:00:00.000Z",
-		type: "SummerGiveaway",
-		giveawayUrl: "https://x.com/enjoyoorsxyz/status/1954894552159916282",
-		boost: 1,
-	},
-	{
 		name: "Third summer giveaway",
 		startedAt: "2025-08-18T13:00:00.000Z",
 		endedAt: "2025-08-25T13:00:00.000Z",
 		type: "SummerGiveaway",
-		giveawayUrl: "https://x.com/enjoyoorsxyz/status/1954894552159916282",
+		giveawayUrl: "https://x.com/enjoyoorsxyz/status/1957434622070882507",
 		boost: 1,
 	},
 	{
