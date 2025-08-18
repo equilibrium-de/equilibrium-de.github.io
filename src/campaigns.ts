@@ -75,6 +75,24 @@ export const CAMPAIGNS: Campaign[] = [
 		giveawayUrl: "https://x.com/enjoyoorsxyz/status/1954894552159916282",
 		boost: 1,
 	},
+	{
+		name: "Third summer giveaway",
+		startedAt: "2025-08-18T13:00:00.000Z",
+		endedAt: "2025-08-25T13:00:00.000Z",
+		type: "SummerGiveaway",
+		giveawayUrl: "https://x.com/enjoyoorsxyz/status/1954894552159916282",
+		boost: 1,
+	},
+	{
+		name: "aPriori",
+		startedAt: "2025-08-18T13:00:00.000Z",
+		endedAt: "2025-08-25T13:00:00.000Z",
+		type: "SummerMadness",
+		boost: 5,
+		tokenId: 420,
+		partnerTwitter: "@apr_labs",
+		partnerName: "aPriori",
+	},
 
 	{
 		name: "OctoSwap LP gigaETH",
