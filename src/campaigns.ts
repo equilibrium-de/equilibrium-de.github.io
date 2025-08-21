@@ -87,25 +87,16 @@ export const CAMPAIGNS: Campaign[] = [
 	},
 
 	{
-		name: "OctoSwap LP gigaETH",
-		startedAt: "2025-08-06T13:00:00.000Z",
-		endedAt: "2025-08-20T13:00:00.000Z",
+		name: "PumpBTC",
+		startedAt: "2025-08-21T13:00:00.000Z",
+		endedAt: "2025-09-09T13:00:00.000Z",
 		type: "TwitterBoost",
 		boost: 3,
-		tokenId: 471,
-		partnerTwitter: "@OctoSwapDex",
-		partnerName: "OctoSwapDex",
+		tokenId: 430,
+		partnerTwitter: "@Pumpbtcxyz",
+		partnerName: "Pumpbtc",
 	},
-	{
-		name: "OctoSwap LP gigaETH",
-		startedAt: "2025-08-06T13:00:00.000Z",
-		endedAt: "2025-08-20T13:00:00.000Z",
-		type: "TwitterBoost",
-		boost: 3,
-		tokenId: 472,
-		partnerTwitter: "@OctoSwapDex",
-		partnerName: "OctoSwapDex",
-	},
+
 	{
 		name: "Overnads",
 		startedAt: "2025-08-12T13:00:00.000Z",
