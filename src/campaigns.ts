@@ -89,7 +89,7 @@ export const CAMPAIGNS: Campaign[] = [
 	{
 		name: "PumpBTC",
 		startedAt: "2025-08-21T13:00:00.000Z",
-		endedAt: "2025-09-09T13:00:00.000Z",
+		endedAt: "2025-09-04T13:00:00.000Z",
 		type: "TwitterBoost",
 		boost: 3,
 		tokenId: 430,
