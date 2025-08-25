@@ -68,22 +68,12 @@ export const CDN_ORIGIN = "https://content.enjoyoors.xyz";
 
 export const CAMPAIGNS: Campaign[] = [
 	{
-		name: "Third summer giveaway",
-		startedAt: "2025-08-18T13:00:00.000Z",
-		endedAt: "2025-08-25T13:00:00.000Z",
+		name: "Fourth summer giveaway",
+		startedAt: "2025-08-25T13:00:00.000Z",
+		endedAt: "2025-09-01T13:00:00.000Z",
 		type: "SummerGiveaway",
-		giveawayUrl: "https://x.com/enjoyoorsxyz/status/1957434622070882507",
+		giveawayUrl: "https://x.com/enjoyoorsxyz/status/1959989147126411324",
 		boost: 1,
-	},
-	{
-		name: "aPriori",
-		startedAt: "2025-08-18T13:00:00.000Z",
-		endedAt: "2025-08-25T13:00:00.000Z",
-		type: "SummerMadness",
-		boost: 5,
-		tokenId: 420,
-		partnerTwitter: "@apr_labs",
-		partnerName: "aPriori",
 	},
 
 	{
