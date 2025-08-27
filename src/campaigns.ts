@@ -77,6 +77,17 @@ export const CAMPAIGNS: Campaign[] = [
 	},
 
 	{
+		name: "cshMON boost",
+		startedAt: "2025-08-27T13:00:00.000Z",
+		endedAt: "2025-09-10T13:00:00.000Z",
+		type: "TwitterBoost",
+		boost: 3,
+		tokenId: 476,
+		partnerTwitter: "@curvance",
+		partnerName: "Curvance",
+	},
+
+	{
 		name: "PumpBTC",
 		startedAt: "2025-08-21T13:00:00.000Z",
 		endedAt: "2025-09-04T13:00:00.000Z",
