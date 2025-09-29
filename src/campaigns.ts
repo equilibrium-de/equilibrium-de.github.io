@@ -75,11 +75,11 @@ export const CDN_ORIGIN = "https://content.enjoyoors.xyz";
 export const CAMPAIGNS: Campaign[] = [
 	{
 		name: "Zerion Wallet Boost",
-		startedAt: "2025-09-29T13:00:00.000Z",
+		startedAt: "2025-09-29T10:00:00.000Z",
 		endedAt: "2025-10-06T13:00:00.000Z",
 		type: "ZerionTokenBoost",
 		boost: 20,
-		tokenId: 133,
+		tokenId: 2,
 	},
 ];
 
