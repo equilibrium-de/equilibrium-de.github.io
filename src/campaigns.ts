@@ -58,6 +58,8 @@ type SummerGiveaway = BoostBase & {
 	giveawayUrl: string;
 };
 type ZerionTokenBoost = BoostBase & {
+	campaignStartedAt: string;
+	campaignEndedAt: string;
 	type: "ZerionTokenBoost";
 	tokenId: number;
 };
@@ -75,6 +77,8 @@ export const CDN_ORIGIN = "https://content.enjoyoors.xyz";
 export const CAMPAIGNS: Campaign[] = [
 	{
 		name: "Zerion Wallet Boost",
+		campaignStartedAt: "2025-09-29T10:00:00.000Z",
+		campaignEndedAt: "2025-10-16T13:00:00.000Z",
 		startedAt: "2025-09-29T10:00:00.000Z",
 		endedAt: "2025-10-06T13:00:00.000Z",
 		type: "ZerionTokenBoost",
