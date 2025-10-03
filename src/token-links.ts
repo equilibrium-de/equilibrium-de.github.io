@@ -147,6 +147,56 @@ const LINKS = {
 		getLink:
 			"https://octo.exchange/add-liquidity-v1?pair=0x063660ce4655bf07445014f96e4a4df92f5f75da",
 	},
+	"133": {
+		id: 133,
+		symbol: "rsETH",
+		getLink: "https://kerneldao.com/kelp/restake/",
+	},
+	"135": {
+		id: 135,
+		symbol: "pufETH",
+		getLink: "https://app.puffer.fi/",
+	},
+	"138": {
+		id: 138,
+		symbol: "ezETH",
+		getLink: "https://app.renzoprotocol.com/ezeth",
+	},
+	"477": {
+		id: 477,
+		symbol: "pzETH",
+		getLink: "https://app.renzoprotocol.com/pzeth",
+	},
+	"93": {
+		id: 93,
+		symbol: "rETH",
+		getLink: "https://stake.rocketpool.net/",
+	},
+	"131": {
+		id: 131,
+		symbol: "weETH",
+		getLink: "https://www.ether.fi/app/weeth",
+	},
+	"112": {
+		id: 112,
+		symbol: "sfrxETH",
+		getLink: "https://app.frax.finance/frxeth/stake",
+	},
+	"480": {
+		id: 480,
+		symbol: "ynETHx",
+		getLink: "https://app.yieldnest.finance/token/ynETHx",
+	},
+	"479": {
+		id: 479,
+		symbol: "ynETH",
+		getLink: "https://app.yieldnest.finance/token/ynETH",
+	},
+	"481": {
+		id: 481,
+		symbol: "ynUSDx",
+		getLink: " https://app.yieldnest.finance/token/ynUSDx",
+	},
 };
 
 const generate = () => {
