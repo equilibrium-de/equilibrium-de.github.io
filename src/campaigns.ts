@@ -78,12 +78,12 @@ export const CAMPAIGNS: Campaign[] = [
   {
     name: "Zerion Wallet Boost",
     campaignStartedAt: "2025-10-06T13:00:00.000Z",
-    campaignEndedAt: "2025-11-06T13:00:00.000Z",
-    startedAt: "2025-10-20T13:00:00.000Z",
-    endedAt: "2025-10-27T13:00:00.000Z",
+    campaignEndedAt: "2025-11-03T13:00:00.000Z",
+    startedAt: "2025-10-27T13:00:00.000Z",
+    endedAt: "2025-11-03T13:00:00.000Z",
     type: "ZerionTokenBoost",
     boost: 20,
-    tokenIds: [93, 138],
+    tokenIds: [479, 482],
   },
 ];
 
