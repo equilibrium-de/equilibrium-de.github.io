@@ -461,6 +461,66 @@ const TRANSLATIONS = {
 		"你将资产质押在协议中的时间越久，获得的积分奖励越多",
 	"*The token price is taken at the time of each calculation, so the number of points you receive may vary.":
 		"*每次计算时都会参考当时的代币价格，因此你收到的奖励数量可能会有变化。",
+	// explore page
+	Enter: "进入",
+	"$E tokens": "$E代币",
+	"Earn $E for staking!": "质押资产，赚取$E!",
+	"They convert into our native tokens on TGE.":
+		"$E会在TGE时兑换成我们的原生代币",
+	"Diamond EnjoyPasses": "钻石级Enjoy通行证",
+	"Enjooy VIP perks and the highest yields possible by holding one of these!":
+		"持有通行证，可享受VIP福利和最高级别的收益！",
+	"How to get rewarded": "如何获得奖励",
+	"Complete quests and stake your assets": "完成任务，质押资产",
+	"Get boost up to +50% on $E earnings for 30 days":
+		"三十天内$E收益加成高达50%以上",
+	"Conquer systems by completing 10 quests": "完成10个任务，征服星系",
+	"get the diamond enjoypass along with $E earnings":
+		"获得钻石级Enjoy通行证以及$E收益",
+	"Explore Quests": "查看任务",
+	"Boost rate depends on your staked amount: 10% under $2k, 30% for $2K-$10K, and 50% above $10k. ":
+		"加成倍率取决于质押的资产额度：2000美元以下加成10%，2000-1万美元加成30%，1万美元以上加成50%",
+	"learn about enjoyoors": "了解更多信息",
+	"I want you to conquer the enjoyverse": "快来征服Enjoyverse",
+	"Connect & earn $E": "连接钱包，赚取$E",
+
+	// enter page
+	"Earn $E": "赚取$E",
+	"Connect wallet": " 连接钱包",
+	Conquer: "征服",
+	"Enjoyverse conquering instruction": "Enjoyverse新手指南",
+	"What is Diamond Enjoypass?": "什么是钻石级Enjoy通行证？",
+	"The Diamond Enjoypass is the rare premium tier of the EnjoyPass NFT. ":
+		"钻石级Enjoy通行证是稀缺的高级别Enjoy通行证NFT。",
+	"This pass delivers better perks, max yield optimization, and VIP-level access across the Enjoyoors ecosystem":
+		"持有这个通行证可以在Enjoyoor生态中享受更好的福利、最高的收益以及VIP权限。",
+	"How to receive a Diamond EnjoyPass?": "如何获得钻石级Enjoy通行证？",
+	"you need to complete the minimum required number of partner quests in network- and the Diamond EnjoyPass is yours.":
+		"你需要完成一定数量的网络合作伙伴任务，即可获得钻石级Enjoy通行证。",
+	"What will happen if I unstake partner tokens?":
+		"如果我取出质押的合作伙伴代币会发生什么？",
+	"you will lose your bonus and all accumulated bonus points.":
+		"你将失去奖励以及所有累积的奖励积分。",
+	"May our update be with you": "愿我们的最新消息与你同在",
+
+	// monad page
+	"MONAD SYSTEM": "MONAD系统",
+	"complete 4 quests to unlock Diamond EnjoyPass":
+		"完成4个任务，解锁钻石级Enjoy通行证。",
+	"a liquid restaking protocol enhancing yield and capital efficiency across monad.":
+		"Monad上的一个提高收益和资本效率的流动性再质押协议。",
+	"Get boost on $E earnings": "获得$E收益加速包",
+	"Stake sMON for 30 days": "将sMON质押30天",
+	"complete the Galxe quest": "完成Galxe任务",
+	"A community-first liquid staking protocol on Monad, fueling fairer token distribution.":
+		"Monad上的一个以社区为中心的流动性质押协议，旨在提升代币分发的公平性。",
+	"An MEV optimization protocol enabling fair, efficient transaction execution.":
+		"一个MEV优化协议，旨在实现公平、高效的交易执行。",
+	"A smart, social wallet bringing smoother DeFi interactions and questing to users.":
+		"一个智能社交类钱包，为用户提供更流畅的DeFi交互体验。",
+
+	// learn more page
+	"is safe and convenient": "安全又便捷",
 };
 
 const generate = () => {
