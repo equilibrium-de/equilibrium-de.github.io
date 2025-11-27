@@ -277,40 +277,47 @@ const TRANSLATIONS = {
 	"Claim available at {time} ": "{time}可以领取",
 
 	"You will be able to claim at {time}": "你可以在{time}领取",
-	"Users": "用户",
+	Users: "用户",
 	"Total Value Locked": "TVL",
 	"All stats": "所有数据",
 	"Staked Assets": "质押的资产",
-	"Statistics": "数据统计",
-	"LTV": "贷款价值比",
+	Statistics: "数据统计",
+	LTV: "贷款价值比",
 	"$300 RAFFLE": "300美元奖池抽奖",
 	"Follow us": "关注我们",
-	"I consent to the processing of my data for newsletters and communications": "我同意为了接收newsletter和消息将我的信息提供给网站处理",
+	"I consent to the processing of my data for newsletters and communications":
+		"我同意为了接收newsletter和消息将我的信息提供给网站处理",
 	"Get all updates at your email": "通过邮件获得所有最新消息",
-	"Save your place among top 1000 winners by staking more": "质押更多代币，跻身前1000名获奖者",
-	"SHOW" :"显示",
+	"Save your place among top 1000 winners by staking more":
+		"质押更多代币，跻身前1000名获奖者",
+	SHOW: "显示",
 	"Unlock pokeMON points": "解锁pokeMON积分",
 	"GET BOOST": "获取加速",
 	"pokeMON points x3 boost": "pokeMON积分三倍加速",
-	"wrap": "包装",
-	"unwrap": "解封",
+	wrap: "包装",
+	unwrap: "解封",
 	"Unlock X3 pokeMON": "解锁三倍pokeMON",
-	"Share your FIABTC stake & triple your": "分享你的FIABTC质押，在6月（xx）之前获得三倍pokeMON积分",
+	"Share your FIABTC stake & triple your":
+		"分享你的FIABTC质押，在6月（xx）之前获得三倍pokeMON积分",
 	"1. Publish Your Stake on X": "1. 在X上发布你的质押资产",
 	"2. Enter Link to Published Post": "2. 在发布的帖子中加入链接",
-	"Unlock": "解锁",
+	Unlock: "解锁",
 	"x3 Boosted Rewards until June 13": "到6月13日之前获取三倍加速奖励",
 	"x3 Boosted Rewards until June 16": "到6月16日之前获取三倍加速奖励",
 
 	// NFT and Tokens Boost
 	"How to boost pokeMON points": "如何加速pokeMON积分",
-	"Complete these simple actions & earn MOAR pokeMONs": "完成这几步简单的操作，赢得MOAR pokeMON",
+	"Complete these simple actions & earn MOAR pokeMONs":
+		"完成这几步简单的操作，赢得MOAR pokeMON",
 	"How do I calculate the overall boost?": "如何计算加速总值？",
 	"Boosts from multiple sources are multiplicative.": "多个来源的加速可以叠加",
 	"Example Calculation:": "计算示例：",
-	"If you stake sMON with a x3 boost and hold a partner NFT with a x2 boost, the boosts multiply: x3 * x2 = x6": "如果使用3倍加速质押sMON，并使用2倍加速持有合作伙伴的NFT，那么加速可按以下公式叠加：x3 * x2 = x6",
-	"For every $1 of staked TVL, you will earn 6 points.": "每质押1美元TVL，你将获得6个积分",
-	"The boost will cease if you no longer hold the partner NFT.": "如果不再持有合作伙伴的NFT，加速将停止",
+	"If you stake sMON with a x3 boost and hold a partner NFT with a x2 boost, the boosts multiply: x3 * x2 = x6":
+		"如果使用3倍加速质押sMON，并使用2倍加速持有合作伙伴的NFT，那么加速可按以下公式叠加：x3 * x2 = x6",
+	"For every $1 of staked TVL, you will earn 6 points.":
+		"每质押1美元TVL，你将获得6个积分",
+	"The boost will cease if you no longer hold the partner NFT.":
+		"如果不再持有合作伙伴的NFT，加速将停止",
 	"Stake featured assets": "质押特殊资产",
 	"To get 3X Boost for sMON and FIABTC": "获得sMOn和FIABTC3倍加速",
 	"Hold NFT": "持有NFT",
@@ -319,7 +326,8 @@ const TRANSLATIONS = {
 	"2x NFT Boost activated": "已激活2倍NFT加速",
 	"Max NFT Boost activated": "已激活最大NFT加速",
 	"Get 4x pokeMON": "获得4倍pokeMON",
-	"Hold NFT from our partners collections and get double points for each partner": "持有我们合作伙伴的NFT，每个合作伙伴都可以带来双倍积分",
+	"Hold NFT from our partners collections and get double points for each partner":
+		"持有我们合作伙伴的NFT，每个合作伙伴都可以带来双倍积分",
 	"Hold NFT from Monad Nomads": "持有Monad Nomads的NFT",
 	"Hold NFT from Llamao": "持有Llamao的NFT",
 	"Max Boost Activated": "已激活最大加速",
@@ -329,31 +337,96 @@ const TRANSLATIONS = {
 
 	// Haha campaign
 	"Complete tasks in HaHa Wallet": "排名最高的HaHa质押者",
-	"Top 1,111 participants by pokeMON balance get EnjoyPass": "pokeMON余额排名前1,111名的用户将获得EnjoyPass",
+	"Top 1,111 participants by pokeMON balance get EnjoyPass":
+		"pokeMON余额排名前1,111名的用户将获得EnjoyPass",
 	"Stake to get EnjoyPass": "通过质押获得EnjoyPass",
 	"Didn’t make the top 1,111?": "没有进入前1,111名？",
-	"You’re still in — 1,111 EnjoyPasses will be drawn among the rest": "你还有机会——我们将在剩下的用户中抽奖送出1,111个EnjoyPass",
+	"You’re still in — 1,111 EnjoyPasses will be drawn among the rest":
+		"你还有机会——我们将在剩下的用户中抽奖送出1,111个EnjoyPass",
 	"Stake now": "立即质押",
 	"Stake more": "质押更多",
 	"Lucky Enjoyoors": "幸运的Enjoyoor",
 	"SEE {leaderBoardTotal} PARTICIPANTS": "查看 {leaderBoardTotal}参与者",
-	"Get a limited NFT that enables a guaranteed pokeMON to $E swap, extra rewards, and mainnet perks": "获得限量版NFT，保障将pokeMON兑换成$E，并获得额外奖励和主网福利",
-	"2,222 EnjoyPasses for Lucky Enjoyoors": "为幸运的Enjoyoor准备了2,222个EnjoyPass",
-	"Stake via HaHa and get exciting rewards on our TGE": "通过Haha质押，在TGE当天获得惊喜奖励",
-	"{totalPointsAmount} Points & {totalStakedInUsd} staked": "{totalPointsAmount}个积分，质押额{totalStakedInUsd} ",
+	"Get a limited NFT that enables a guaranteed pokeMON to $E swap, extra rewards, and mainnet perks":
+		"获得限量版NFT，保障将pokeMON兑换成$E，并获得额外奖励和主网福利",
+	"2,222 EnjoyPasses for Lucky Enjoyoors":
+		"为幸运的Enjoyoor准备了2,222个EnjoyPass",
+	"Stake via HaHa and get exciting rewards on our TGE":
+		"通过Haha质押，在TGE当天获得惊喜奖励",
+	"{totalPointsAmount} Points & {totalStakedInUsd} staked":
+		"{totalPointsAmount}个积分，质押额{totalStakedInUsd} ",
 	"You are #{place}": "你排名第#{place}",
-	"Enjoyooble rewards":	"Enjoyooble奖励",
+	"Enjoyooble rewards": "Enjoyooble奖励",
 	"How to complete the tasks?": "如何完成任务",
-	"Just install the": "只需安装", 
+	"Just install the": "只需安装",
 	"Haha Wallet": "HaHa钱包",
-	"and follow the in-app instructions.":	"，根据APP内指引操作。",
-	"How to stake my assets?":	"如何质押我的资产",
+	"and follow the in-app instructions.": "，根据APP内指引操作。",
+	"How to stake my assets?": "如何质押我的资产",
 	"Hop on the": "跳转到",
 	"main page": "主页",
-	", pick your asset, and start staking.":	"，选择你要质押的资产，然后就可以质押了。",
-	"How are ranks calculated?":	"排名是如何计算的？",
-	"The more pokeMON you’ve got — the higher your rank!":	"你持有的pokeMON越多，排名就越高。",
-	"Stake on Enjoyoors and catch ’em all to claim the top spot!":	"在Enjoyoors上质押，把握每个机会，抢占榜首位置。",
+	", pick your asset, and start staking.":
+		"，选择你要质押的资产，然后就可以质押了。",
+	"How are ranks calculated?": "排名是如何计算的？",
+	"The more pokeMON you’ve got — the higher your rank!":
+		"你持有的pokeMON越多，排名就越高。",
+	"Stake on Enjoyoors and catch ’em all to claim the top spot!":
+		"在Enjoyoors上质押，把握每个机会，抢占榜首位置。",
+	// Landing
+	"omni-chain synthetic asset engine": "全链合成资产引擎",
+	"We Unlock Yield": "我们为你解锁收益",
+	"on any asset": "覆盖任何资产",
+	"Start Earning": "开始赚取收益",
+	"Earn Rewards on a galactic scale": "大规模赚取收益",
+	"Discover the crypto space, complete quests, and earn $E by completing quests in Enjoyverse":
+		"探索加密世界，完成任务，在Enjoyverse中做任务来赚取$E",
+	Explore: "探索",
+	"Get 100 Karma Points for installing HaHa Wallet":
+		"安装HaHa钱包，获得100个Karma积分奖励",
+	"Stake your assets through HaHa wallet and collect Karma Points to participate in the upcoming HaHa airdrop":
+		"在HaHa钱包里质押资产，获得Karma积分奖励，参与之后的HaHa空投",
+	"Install HaHa": "安装HaHa钱包",
+	"100% decentralized": "100%去中心化",
+	"How it works": "运作机制",
+	"1.  you stake anything0": "1. 你质押任何资产",
+	"deposit ETH, LRTs, LP tokens, Governance Tokens":
+		"存入ETH、LRT、LP代币和质押代币",
+	"2. We mint gigaAssets": "2. 我们铸造giga资产",
+	"you deposits fuel gigaAssets- soft-pegged synthetic liquidity. ":
+		"你存入giga资产，即软性锚定的合成流动性资",
+	"we deploy them across DeFi: restaking, lending , LPing":
+		"我们将其存入各个DeFi平台，包括再质押、借贷和LP平台",
+	"3. you enjoy yield": "3.获得收益",
+	yes: "大功告成！",
+	"learn more": "了解更多",
+	"The big vision": "最终愿景",
+	"The omni-chain liquidity machine": "全链流动性工具",
+	"unlocks yield for >$2.5T of assets": "为价值超过2.5万亿美元的资产解锁收益",
+	"Routes the value where its needed the most": "将价值引导至需求最高的地方",
+	"TVL agent for legit DeFi protocols": "为合规的DeFi协议提供TVL代理服务",
+	"New source of dollar liquidity": "提供新的美元流动性来源",
+	"Facilitates APY arbitrage between ecosystems":
+		"帮助在各个生态之间进行年化收益套利",
+	"user control": "用户控制",
+	gigaassets: "giga资产",
+	LPING: "提供流动性",
+	"whitelisted TVL recepients": "白名单上的TVL接收方",
+	yield: "收益",
+	"protocol control": "协议控制",
+	"trusted by projects": "合作的项目",
+	"Latest articles from Enjoyoors Blog": "Enjoyoors博客的最新文章",
+	"45986": "2025年11月25日",
+	"enter the Enjoyverse: The First Launch Campaign on Monad":
+		"进入Enjoyverse：Monad的首个发布活动",
+	"From Testnet to Takeoff： Whats Next for Enjoyoors":
+		"从测试网到主网上线：Enjoyoors的下一步计划",
+	"Gearing up for mainnet:community Townhall Recap":
+		"准备主网上线：社区全员大会总结",
+	"See All Articles": "阅读所有文章",
+	"Lets Enjooy Yield Together": "我们一起来赚取收益吧！",
+	"Become one of 640 enjoyoors": "加入我们，成为640个Enjoyoor其中之一",
+	"Get Started": "立即开始",
+	"Stay enjooyed in the loop": "时刻关注我们的动态",
+	"your email": "你的邮箱地址",
 };
 
 const generate = () => {
