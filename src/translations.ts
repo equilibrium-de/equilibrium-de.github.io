@@ -427,6 +427,40 @@ const TRANSLATIONS = {
 	"Get Started": "立即开始",
 	"Stay enjooyed in the loop": "时刻关注我们的动态",
 	"your email": "你的邮箱地址",
+	// start earning page
+	"Today's Rewards": "今日奖励",
+	"Campaign is over": "活动已结束",
+	Check: "查看",
+	install: "安装",
+	Enjoy: "参与",
+	"Questions & Answers ": "常见问题",
+	"How do withdrawal penalties work?": "提币惩罚规则是什么？",
+	"If you withdraw your assets, your claimable $E points may be reduced depending on how long your stake was held:":
+		"如果你将资产取出，你可领取的$E积分将被扣罚，具体扣罚金额取决于质押时间。",
+	"Held 0-1 month- 100% loss of $E": "质押时间在0-1个月，则损失100%的$E",
+	"Held 1-2 month- 50% loss of $E": "质押时间在1-2个月，则损失50%的$E",
+	"Held 2+month until TGE- 30% loss of $E":
+		"在TGE之前质押2个月以上，则损失30%的$E",
+	"Held until the end of the campaign- 0% loss":
+		"一直质押到活动结束为止，则不损失$E",
+	"The penalty rules always apply top-down - based on your first deposit time(or the time after your last withdrawal)":
+		"惩罚规则始终按首次存款时间或上次净提币后重新存款的时间从头计算",
+	"Example: If you deposit 2 months before TGE:":
+		"比如，如果你在TGE之前两个月存入资产：",
+	"First month- 100% loss": "第一个月，损失100%",
+	"Second month - 50% loss": "第二个月，损失50%",
+	"Remaining time until campaign end- 0% loss":
+		"直到活动结束前的剩余时间，损失0%",
+	"The countdown for these periods begins after your first deposit of any token":
+		"从你首次存入任何资产那一刻开始倒计时",
+	"We calculate rewards based on the dollar value of your staked assets every 3 hours.":
+		"我们会每三小时根据你质押资产的美元计价来计算奖励",
+	"(Number of tokens x Token price in USD*) ÷ 8":
+		"（代币数量 x 以美元*计价的代币价格）÷8",
+	"The longer you keep your assets in the protocol, the more points you earn.":
+		"你将资产质押在协议中的时间越久，获得的积分奖励越多",
+	"*The token price is taken at the time of each calculation, so the number of points you receive may vary.":
+		"*每次计算时都会参考当时的代币价格，因此你收到的奖励数量可能会有变化。",
 };
 
 const generate = () => {
