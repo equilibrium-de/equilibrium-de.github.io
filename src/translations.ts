@@ -425,7 +425,7 @@ const TRANSLATIONS = {
 	"protocol control": "协议控制",
 	"trusted by projects": "合作的项目",
 	"Latest articles from Enjoyoors Blog": "Enjoyoors博客的最新文章",
-	"45986": "2025年11月25日",
+	"25 Nov 2025": "2025年11月25日",
 	"enter the Enjoyverse: The First Launch Campaign on Monad":
 		"进入Enjoyverse：Monad的首个发布活动",
 	"From Testnet to Takeoff： Whats Next for Enjoyoors":
@@ -438,6 +438,13 @@ const TRANSLATIONS = {
 	"Get Started": "立即开始",
 	"Stay enjooyed in the loop": "时刻关注我们的动态",
 	"your email": "你的邮箱地址",
+	learn: "了解更多",
+	"How it Works": "运作机制",
+	docs: "文档",
+	github: "Github",
+	Legal: "法律事务",
+	"Privacy Policy": "隐私政策",
+	"Terms&Conditions": "服务协议",
 	// start earning page
 	"Today's Rewards": "今日奖励",
 	"Campaign is over": "活动已结束",
