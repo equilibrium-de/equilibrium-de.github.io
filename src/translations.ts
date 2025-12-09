@@ -397,7 +397,7 @@ const TRANSLATIONS = {
 	"How it works": "运作机制",
 	"1. you stake anything": "1. 你质押任何资产",
 	" you stake anything": "你质押任何资产",
-	"deposit ETH, LRTs, LP tokens, Governance Tokens":
+	"Deposit ETH, LRTs, LP tokens, Governance tokens.":
 		"存入ETH、LRT、LP代币和质押代币",
 	"2. We mint gigaAssets": "2. 我们铸造giga资产",
 	"We mint gigaAssets": "我们铸造giga资产",
