@@ -1,6 +1,8 @@
 const TRANSLATIONS = {
 	"The Omni-asset Liquidity Primitive": "全资产流动性平台",
 	"Stake anything, earn yield": "质押任意资产，获得收益",
+	"Stake anything": "质押任意资产",
+	"earn yield": "获得收益",
 	"Join waitlist": "加入等待名单",
 	"enjoyoors Magic": "enjoyoors的独特功能",
 	Yield: "获得收益",
@@ -393,7 +395,7 @@ const TRANSLATIONS = {
 	"Install HaHa": "安装HaHa钱包",
 	"100% decentralized": "100%去中心化",
 	"How it works": "运作机制",
-	"1.  you stake anything0": "1. 你质押任何资产",
+	"1.  you stake anything": "1. 你质押任何资产",
 	"deposit ETH, LRTs, LP tokens, Governance Tokens":
 		"存入ETH、LRT、LP代币和质押代币",
 	"2. We mint gigaAssets": "2. 我们铸造giga资产",
