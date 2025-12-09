@@ -448,6 +448,7 @@ const TRANSLATIONS = {
 	Legal: "法律事务",
 	"Privacy Policy": "隐私政策",
 	"Terms&Conditions": "服务协议",
+	"Terms & Conditions": "服务协议",
 	// start earning page
 	"Today's Rewards": "今日奖励",
 	"Campaign is over": "活动已结束",
