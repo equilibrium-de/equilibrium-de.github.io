@@ -379,6 +379,8 @@ const TRANSLATIONS = {
 	"on any asset": "覆盖任何资产",
 	"Start Earning": "开始赚取收益",
 	"Earn Rewards on a galactic scale": "大规模赚取收益",
+	"Earn Rewards": "大规模",
+	"on a galactic scale": "赚取收益",
 	"Discover the crypto space, complete quests, and earn $E by completing quests in Enjoyverse":
 		"探索加密世界，完成任务，在Enjoyverse中做任务来赚取$E",
 	Explore: "探索",
