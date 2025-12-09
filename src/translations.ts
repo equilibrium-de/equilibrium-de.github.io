@@ -405,7 +405,7 @@ const TRANSLATIONS = {
 		"你存入giga资产，即软性锚定的合成流动性资",
 	"we deploy them across DeFi: restaking, lending , LPing":
 		"我们将其存入各个DeFi平台，包括再质押、借贷和LP平台",
-	"3. you enjoy yield": "3.获得收益",
+	"3. You enjooy yield": "3.获得收益",
 	"you enjoy yield": "获得收益",
 	yes: "大功告成！",
 	"learn more": "了解更多",
