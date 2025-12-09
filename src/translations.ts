@@ -395,7 +395,7 @@ const TRANSLATIONS = {
 	"Install HaHa": "安装HaHa钱包",
 	"100% decentralized": "100%去中心化",
 	"How it works": "运作机制",
-	"1.  you stake anything": "1. 你质押任何资产",
+	"1. you stake anything": "1. 你质押任何资产",
 	" you stake anything": "你质押任何资产",
 	"deposit ETH, LRTs, LP tokens, Governance Tokens":
 		"存入ETH、LRT、LP代币和质押代币",
