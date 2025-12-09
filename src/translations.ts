@@ -386,6 +386,8 @@ const TRANSLATIONS = {
 	Explore: "探索",
 	"Get 100 Karma Points for installing HaHa Wallet":
 		"安装HaHa钱包，获得100个Karma积分奖励",
+	"Get 100 Karma Pointst": "安装HaHa钱包",
+	"for installing HaHa Wallet": "获得100个Karma积分奖励",
 	"Stake your assets through HaHa wallet and collect Karma Points to participate in the upcoming HaHa airdrop":
 		"在HaHa钱包里质押资产，获得Karma积分奖励，参与之后的HaHa空投",
 	"Install HaHa": "安装HaHa钱包",
