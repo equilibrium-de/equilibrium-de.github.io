@@ -414,7 +414,7 @@ const TRANSLATIONS = {
 	"learn more": "了解更多",
 	"The big vision": "最终愿景",
 	"The omni-chain liquidity machine": "全链流动性工具",
-	"Unlocks yield for >$2.5T of assets": "为价值超过2.5万亿美元的资产解锁收益",
+	"Unlocks yield for $2.5T of assets": "为价值超过2.5万亿美元的资产解锁收益",
 	"Routes the value where its needed the most": "将价值引导至需求最高的地方",
 	"TVL agent for legit DeFi protocols": "为合规的DeFi协议提供TVL代理服务",
 	"New source of dollar liquidity": "提供新的美元流动性来源",
