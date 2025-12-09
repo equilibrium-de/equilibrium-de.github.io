@@ -396,14 +396,17 @@ const TRANSLATIONS = {
 	"100% decentralized": "100%去中心化",
 	"How it works": "运作机制",
 	"1.  you stake anything": "1. 你质押任何资产",
+	" you stake anything": "你质押任何资产",
 	"deposit ETH, LRTs, LP tokens, Governance Tokens":
 		"存入ETH、LRT、LP代币和质押代币",
 	"2. We mint gigaAssets": "2. 我们铸造giga资产",
+	"We mint gigaAssets": "我们铸造giga资产",
 	"you deposits fuel gigaAssets- soft-pegged synthetic liquidity. ":
 		"你存入giga资产，即软性锚定的合成流动性资",
 	"we deploy them across DeFi: restaking, lending , LPing":
 		"我们将其存入各个DeFi平台，包括再质押、借贷和LP平台",
 	"3. you enjoy yield": "3.获得收益",
+	"you enjoy yield": "获得收益",
 	yes: "大功告成！",
 	"learn more": "了解更多",
 	"The big vision": "最终愿景",
