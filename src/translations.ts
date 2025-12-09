@@ -374,6 +374,8 @@ const TRANSLATIONS = {
 	// Landing
 	"omni-chain synthetic asset engine": "全链合成资产引擎",
 	"We Unlock Yield": "我们为你解锁收益",
+	We: "我们",
+	"Unlock Yield": "为你解锁收益",
 	"on any asset": "覆盖任何资产",
 	"Start Earning": "开始赚取收益",
 	"Earn Rewards on a galactic scale": "大规模赚取收益",
