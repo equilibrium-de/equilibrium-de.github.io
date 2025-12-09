@@ -403,6 +403,9 @@ const TRANSLATIONS = {
 	"We mint gigaAssets": "我们铸造giga资产",
 	"you deposits fuel gigaAssets- soft-pegged synthetic liquidity. ":
 		"你存入giga资产，即软性锚定的合成流动性资",
+	"you deposits fuel": "你存入giga资产，即软性锚定的合成流动性资",
+	gigaAssets: "giga资产，",
+	"soft-pegged synthetic liquidity. ": "，即软性锚定的合成流动性资",
 	"we deploy them across DeFi: restaking, lending , LPing":
 		"我们将其存入各个DeFi平台，包括再质押、借贷和LP平台",
 	"3. You enjooy yield": "3.获得收益",
