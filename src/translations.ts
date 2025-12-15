@@ -47,7 +47,6 @@ const TRANSLATIONS = {
 	"/img/how-it-works/print.svg": "/img/how-it-works/print-zh.svg",
 	"/img/find-stake.svg": "/img/find-stake-zh.svg",
 	"/img/popular-today.svg": "/img/popular-today-zh.svg",
-	REWARDS: "领取奖励",
 	"Now Live On Monad Testnet, Soon — Everywhere! Earn":
 		"现已上线 Monad 测试网，即将席卷全网！赚取",
 	"pokeMON and claim rewards on our TGE": "pokeMON，TGE 时领取奖励！",
@@ -452,6 +451,7 @@ const TRANSLATIONS = {
 	"Terms and Conditions": "服务协议",
 	// start earning page
 	"Today's Rewards": "今日奖励",
+	"Today's": "今日",
 	"Campaign is over": "活动已结束",
 	Check: "查看",
 	install: "安装",
