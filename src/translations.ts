@@ -491,6 +491,8 @@ const TRANSLATIONS = {
 	"Earn $E for staking!": "质押资产，赚取$E!",
 	"They convert into our native tokens on TGE.":
 		"$E会在TGE时兑换成我们的原生代币",
+	"Earn $E for staking! They convert into our native tokens on TGE.":
+		"$E会在TGE时兑换成我们的原生代币 $E会在TGE时兑换成我们的原生代币",
 	"Diamond EnjoyPasses": "钻石级Enjoy通行证",
 	"Enjooy VIP perks and the highest yields possible by holding one of these!":
 		"持有通行证，可享受VIP福利和最高级别的收益！",
