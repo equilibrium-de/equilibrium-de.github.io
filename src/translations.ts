@@ -457,6 +457,7 @@ const TRANSLATIONS = {
 	install: "安装",
 	Enjoy: "参与",
 	"Questions & Answers ": "常见问题",
+	"Questions Answers ": "常见问题",
 	"How do withdrawal penalties work?": "提币惩罚规则是什么？",
 	"If you withdraw your assets, your claimable $E points may be reduced depending on how long your stake was held:":
 		"如果你将资产取出，你可领取的$E积分将被扣罚，具体扣罚金额取决于质押时间。",
