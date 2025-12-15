@@ -544,6 +544,9 @@ const TRANSLATIONS = {
 
 	// learn more page
 	"is safe and convenient": "安全又便捷",
+
+	// new
+	testnet: "测试网",
 };
 
 const generate = () => {
