@@ -461,11 +461,11 @@ const TRANSLATIONS = {
 	"How do withdrawal penalties work?": "提币惩罚规则是什么？",
 	"If you withdraw your assets, your claimable $E points may be reduced depending on how long your stake was held:":
 		"如果你将资产取出，你可领取的$E积分将被扣罚，具体扣罚金额取决于质押时间。",
-	"Held 0-1 month- 100% loss of $E": "质押时间在0-1个月，则损失100%的$E",
-	"Held 1-2 month- 50% loss of $E": "质押时间在1-2个月，则损失50%的$E",
-	"Held 2+month until TGE- 30% loss of $E":
+	"Held 0-1 month → 100% loss of $E": "质押时间在0-1个月，则损失100%的$E",
+	"Held 1-2 months → 50% loss of $E": "质押时间在1-2个月，则损失50%的$E",
+	"Held 2+ months until TGE → 30% loss of $E":
 		"在TGE之前质押2个月以上，则损失30%的$E",
-	"Held until the end of the campaign- 0% loss":
+	"Held until the end of the campaign → 0% loss":
 		"一直质押到活动结束为止，则不损失$E",
 	"The penalty rules always apply top-down - based on your first deposit time(or the time after your last withdrawal)":
 		"惩罚规则始终按首次存款时间或上次净提币后重新存款的时间从头计算",
