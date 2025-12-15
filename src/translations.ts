@@ -548,6 +548,7 @@ const TRANSLATIONS = {
 
 	// new
 	testnet: "测试网",
+	Deposit: "存入",
 };
 
 const generate = () => {
