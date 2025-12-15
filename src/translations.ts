@@ -471,9 +471,9 @@ const TRANSLATIONS = {
 		"惩罚规则始终按首次存款时间或上次净提币后重新存款的时间从头计算",
 	"Example: If you deposit 2 months before TGE:":
 		"比如，如果你在TGE之前两个月存入资产：",
-	"First month- 100% loss": "第一个月，损失100%",
-	"Second month - 50% loss": "第二个月，损失50%",
-	"Remaining time until campaign end- 0% loss":
+	"First month → 100% loss": "第一个月，损失100%",
+	"Second month → 50% loss": "第二个月，损失50%",
+	"Remaining time until campaign end → 0% loss":
 		"直到活动结束前的剩余时间，损失0%",
 	"The countdown for these periods begins after your first deposit of any token":
 		"从你首次存入任何资产那一刻开始倒计时",
