@@ -467,7 +467,7 @@ const TRANSLATIONS = {
 		"在TGE之前质押2个月以上，则损失30%的$E",
 	"Held until the end of the campaign → 0% loss":
 		"一直质押到活动结束为止，则不损失$E",
-	"The penalty rules always apply top-down - based on your first deposit time(or the time after your last withdrawal)":
+	"The penalty rules always apply top-down — based on your first deposit time (or the time after your last withdrawal)":
 		"惩罚规则始终按首次存款时间或上次净提币后重新存款的时间从头计算",
 	"Example: If you deposit 2 months before TGE:":
 		"比如，如果你在TGE之前两个月存入资产：",
